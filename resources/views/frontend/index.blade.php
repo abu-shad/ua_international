@@ -8,7 +8,7 @@
     <div class="banner-hero hero-2">
       <div class="banner-inner">
         <div class="block-banner">
-          <h1 class="text-42 color-white wow animate__animated animate__fadeInUp">The #1 <span class="color-green">Job Board for</span><br class="d-none d-lg-block">Hiring or Find your next job</h1>
+          <h1 class="text-42 color-white wow animate__animated animate__fadeInUp"><span class="color-green">Global Recruitment Services</span><br class="d-none d-lg-block">Find your next job</h1>
           <div class="font-lg font-regular color-white mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000 applications every single day</div>
           <!-- <div class="form-find mt-40 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
             <form>

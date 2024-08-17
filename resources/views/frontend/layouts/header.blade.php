@@ -2,61 +2,69 @@
     <div class="container">
         <div class="main-header">
             <div class="header-left">
-                <div class="header-logo"><a class="d-flex" href="index.html"><img alt="Uainternational" src="assets/imgs/template/jobhub-logo.svg"></a></div>
+                <div class="header-logo"><a class="d-flex" href="index.html"><img width="139" height="36" alt="jobBox" src="assets/imgs/template/WhatsApp Image 2024-08-15 at 20.29.51.jpeg"></a></div>
             </div>
             <div class="header-nav">
                 <nav class="nav-main-menu">
                     <ul class="main-menu">
-                        <li class="has-children"><a class="active" href="index.html">Home</a>
+                        <li><a class="active" href="#">Home</a>
+                        </li>
+                        <li class="has-children"><a href="#">About Us</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">Home 1</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                                <li><a href="index-3.html">Home 3</a></li>
-                                <li><a href="index-4.html">Home 4</a></li>
-                                <li><a href="index-5.html">Home 5</a></li>
-                                <li><a href="index-6.html">Home 6</a></li>
+                                <li><a href="#">Why Choose Us?</a></li>
+                                <li><a href="#">Board of Directors</a></li>
+                                <li><a href="#">Leadership Team</a></li>
+                                <li><a href="#">Mission & Vission</a></li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="jobs-grid.html">Find a Job</a>
+                        <li class="has-children"><a href="companies-grid.html">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="jobs-grid.html">Jobs Grid</a></li>
-                                <li><a href="jobs-list.html">Jobs List</a></li>
-                                <li><a href="job-details.html">Jobs Details </a></li>
-                                <li><a href="job-details-2.html">Jobs Details 2 </a></li>
+                                <li><a href="#">Overseas Recruitment Service</a></li>
+                                <li><a href="#">Global Executive Search</a></li>
+                                <li><a href="#">Document Attestation</a></li>
+                                <li><a href="#">Skill Training & Testing Centre</a></li>
+                                <li><a href="#">Travel & Tourism</a></li>
+                                <li><a href="#">Umrah</a></li>
+                                <li><a href="#">Web & app development</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="companies-grid.html">Recruiters</a>
+                        <li class="has-children"><a href="#">Clients</a>
                             <ul class="sub-menu">
-                                <li><a href="companies-grid.html">Recruiters</a></li>
-                                <li><a href="company-details.html">Company Details</a></li>
+                                <li><a href="#">Saudi Arabia</a></li>
+                                <li><a href="#">UAE</a></li>
+                                <li><a href="#">Qatar</a></li>
+                                <li><a href="#">Kingdom of Bahrain</a></li>
+                                <li><a href="#">Oman</a></li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="candidates-grid.html">Candidates</a>
+                        <li><a href="#">Jobs</a>
+                        </li>
+                        <li class="has-children"><a href="#">Gallery</a>
                             <ul class="sub-menu">
-                                <li><a href="candidates-grid.html">Candidates Grid</a></li>
-                                <li><a href="candidate-details.html">Candidate Details</a></li>
-                                <li><a href="candidate-profile.html">Candidate Profile</a></li>
+                                <li><a href="#">Photo Gallery</a></li>
+                                <li><a href="#">Technical Trade</a></li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="blog-grid.html">Pages</a>
+                        <li class="has-children"><a href="#">Industry</a>
                             <ul class="sub-menu">
-                                <li><a href="page-about.html">About Us</a></li>
-                                <li><a href="page-pricing.html">Pricing Plan</a></li>
-                                <li><a href="page-contact.html">Contact Us</a></li>
-                                <li><a href="page-register.html">Register</a></li>
-                                <li><a href="page-signin.html">Signin</a></li>
-                                <li><a href="page-reset-password.html">Reset Password</a></li>
-                                <li><a href="page-content-protected.html">Content Protected</a></li>
+                                <li><a href="#">Healthcare</a></li>
+                                <li><a href="#">Construction</a></li>
+                                <li><a href="#">Hospitality</a></li>
+                                <li><a href="#">Oil & Gas Onshore & Offshore</a></li>
+                                <li><a href="#">FMCG</a></li>
+                                <li><a href="#">Information technology</a></li>
+                                <li><a href="#">Automobiles</a></li>
                             </ul>
                         </li>
-                        <li class="has-children"><a href="blog-grid.html">Blog</a>
+                        <li class="has-children"><a href="#">Contact Us</a>
                             <ul class="sub-menu">
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-grid-2.html">Blog Grid 2</a></li>
-                                <li><a href="blog-details.html">Blog Single</a></li>
+                                <li><a href="#">Employer</a></li>
+                                <li><a href="#">Job Seeker</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Global Presence</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="dashboard"><a href="http://wp.alithemes.com/html/Uainternational/demos/dashboard" target="_blank">Dashboard</a></li> -->
                     </ul>
                 </nav>
                 <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
