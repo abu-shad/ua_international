@@ -2,19 +2,19 @@
     <div class="container">
         <div class="main-header">
             <div class="header-left">
-                <div class="header-logo"><a class="d-flex" href="index.html"><img width="139" height="36" alt="jobBox" src="assets/imgs/template/WhatsApp Image 2024-08-15 at 20.29.51.jpeg"></a></div>
+                <div class="header-logo"><a class="d-flex" href="index.html"><img width="139" height="36" alt="jobBox" src="../assets/imgs/template/WhatsApp Image 2024-08-15 at 20.29.51.jpeg"></a></div>
             </div>
             <div class="header-nav">
                 <nav class="nav-main-menu">
                     <ul class="main-menu">
-                        <li><a class="active" href="#">Home</a>
+                        <li><a class="active" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="has-children"><a href="#">About Us</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Why Choose Us?</a></li>
-                                <li><a href="#">Board of Directors</a></li>
-                                <li><a href="#">Leadership Team</a></li>
-                                <li><a href="#">Mission & Vission</a></li>
+                                <li><a href="{{ route('why.choose.us') }}">Why Choose Us?</a></li>
+                                <li><a href="{{ route('board.of.directors') }}">Board of Directors</a></li>
+                                <li><a href="{{ route('leadership.team') }}">Leadership Team</a></li>
+                                <li><a href="{{ route('mission.vission') }}">Mission & Vission</a></li>
                             </ul>
                         </li>
                         <li class="has-children"><a href="companies-grid.html">Services</a>
@@ -59,10 +59,10 @@
                         </li>
                         <li class="has-children"><a href="#">Contact Us</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Employer</a></li>
-                                <li><a href="#">Job Seeker</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">Global Presence</a></li>
+                                <li><a href="{{ route('employer') }}">Employer</a></li>
+                                <li><a href="{{ route('job.seeker') }}">Job Seeker</a></li>
+                                <li><a href="{{ route('career') }}">Career</a></li>
+                                <li><a href="{{ route('global.presence') }}">Global Presence</a></li>
                             </ul>
                         </li>
                     </ul>
