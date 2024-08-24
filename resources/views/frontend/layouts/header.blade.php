@@ -48,13 +48,13 @@
                         </li>
                         <li class="has-children"><a href="#">Industry</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Healthcare</a></li>
-                                <li><a href="#">Construction</a></li>
-                                <li><a href="#">Hospitality</a></li>
-                                <li><a href="#">Oil & Gas Onshore & Offshore</a></li>
-                                <li><a href="#">FMCG</a></li>
-                                <li><a href="#">Information technology</a></li>
-                                <li><a href="#">Automobiles</a></li>
+                                <li><a href="{{ route('healthcare') }}">Healthcare</a></li>
+                                <li><a href="{{ route('construction') }}">Construction</a></li>
+                                <li><a href="{{ route('hospitality') }}">Hospitality</a></li>
+                                <li><a href="{{ route('oil.and.gas') }}">Oil & Gas Onshore & Offshore</a></li>
+                                <li><a href="{{ route('fmcg') }}">FMCG</a></li>
+                                <li><a href="{{ route('information-technologies') }}">Information technology</a></li>
+                                <li><a href="{{ route('automobiles') }}">Automobiles</a></li>
                             </ul>
                         </li>
                         <li class="has-children"><a href="#">Contact Us</a>

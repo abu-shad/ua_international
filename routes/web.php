@@ -1,11 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Backend\DashboardController;
+use App\Http\Controllers\Frontend\IndustryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,17 @@ Route::group(['prefix' => 'contact'], function () {
     Route::get('/job-seeker', [ContactController::class, 'jobSeeker'])->name('job.seeker');
     Route::get('/career', [ContactController::class, 'career'])->name('career');
     Route::get('/global-presence', [ContactController::class, 'globalPresence'])->name('global.presence');
+
+});
+
+Route::group(['prefix' => 'industry'], function () {
+    Route::get('/healthcare', [IndustryController::class, 'healthcare'])->name('healthcare');
+    Route::get('/construction', [IndustryController::class, 'construction'])->name('construction');
+    Route::get('/hospitality', [IndustryController::class, 'hospitality'])->name('hospitality');
+    Route::get('/oil-and-gas', [IndustryController::class, 'oilAndGas'])->name('oil.and.gas');
+    Route::get('/fmcg', [IndustryController::class, 'fmcg'])->name('fmcg');
+    Route::get('/information-technologies', [IndustryController::class, 'informationTechnologies'])->name('information-technologies');
+    Route::get('/automobiles', [IndustryController::class, 'automobiles'])->name('automobiles');
 
 });
 
