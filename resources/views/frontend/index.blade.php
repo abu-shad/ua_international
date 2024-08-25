@@ -331,16 +331,17 @@
   <section class="section-box mt-30">
     <div class="container">
       <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Jobs of the day</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search and connect with the right candidates faster.</p>
+        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Hot Jobs</h2>
+        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search and apply faster.</p>
         <div class="list-tabs mt-40">
           <ul class="nav nav-tabs" role="tablist">
-            <li><a class="active" id="nav-tab-job-1" href="#tab-job-1" data-bs-toggle="tab" role="tab" aria-controls="tab-job-1" aria-selected="true"><img src="assets/imgs/page/homepage1/management.svg" alt="Uainternational"> Management</a></li>
-            <li><a id="nav-tab-job-2" href="#tab-job-2" data-bs-toggle="tab" role="tab" aria-controls="tab-job-2" aria-selected="false"><img src="assets/imgs/page/homepage1/marketing.svg" alt="Uainternational"> Marketing &amp; Sale</a></li>
-            <li><a id="nav-tab-job-3" href="#tab-job-3" data-bs-toggle="tab" role="tab" aria-controls="tab-job-3" aria-selected="false"><img src="assets/imgs/page/homepage1/finance.svg" alt="Uainternational"> Finance</a></li>
-            <li><a id="nav-tab-job-4" href="#tab-job-4" data-bs-toggle="tab" role="tab" aria-controls="tab-job-4" aria-selected="false"><img src="assets/imgs/page/homepage1/human.svg" alt="Uainternational"> Human Resource</a></li>
-            <li><a id="nav-tab-job-5" href="#tab-job-5" data-bs-toggle="tab" role="tab" aria-controls="tab-job-5" aria-selected="false"><img src="assets/imgs/page/homepage1/retail.svg" alt="Uainternational"> Retail &amp; Products</a></li>
-            <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="Uainternational"> Content Writer</a></li>
+            <li><a class="active" id="nav-tab-job-1" href="#tab-job-1" data-bs-toggle="tab" role="tab" aria-controls="tab-job-1" aria-selected="true"><img src="assets/imgs/page/homepage1/management.svg" alt="Uainternational"> Automobiles</a></li>
+            <li><a id="nav-tab-job-2" href="#tab-job-2" data-bs-toggle="tab" role="tab" aria-controls="tab-job-2" aria-selected="false"><img src="assets/imgs/page/homepage1/marketing.svg" alt="Uainternational"> FCMG</a></li>
+            <li><a id="nav-tab-job-3" href="#tab-job-3" data-bs-toggle="tab" role="tab" aria-controls="tab-job-3" aria-selected="false"><img src="assets/imgs/page/homepage1/finance.svg" alt="Uainternational"> Construction</a></li>
+            <li><a id="nav-tab-job-4" href="#tab-job-4" data-bs-toggle="tab" role="tab" aria-controls="tab-job-4" aria-selected="false"><img src="assets/imgs/page/homepage1/human.svg" alt="Uainternational"> Healthcare</a></li>
+            <li><a id="nav-tab-job-5" href="#tab-job-5" data-bs-toggle="tab" role="tab" aria-controls="tab-job-5" aria-selected="false"><img src="assets/imgs/page/homepage1/retail.svg" alt="Uainternational"> Hospitality</a></li>
+            <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="Uainternational"> Information Technologies</a></li>
+            <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="Uainternational"> Oil And Gas</a></li>
           </ul>
         </div>
       </div>
@@ -1133,8 +1134,8 @@
     <div class="section-box wow animate__animated animate__fadeIn">
       <div class="container">
         <div class="text-start">
-          <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Popular category</h2>
-          <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search and connect with the right candidates faster.</p>
+          <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Popular Services</h2>
+          <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search our services faster.</p>
         </div>
         <div class="box-swiper mt-50">
           <div class="swiper-container swiper-group-6 mh-none swiper">
@@ -1143,7 +1144,7 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big1.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Marketing &amp; Sales</h6>
+                        <h6 class="color-white mb-5">Digital Marketing</h6>
                         <p class="color-white font-xs"><span>123</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1153,7 +1154,7 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big2.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Human resource</h6>
+                        <h6 class="color-white mb-5">Global Sxecutive Search</h6>
                         <p class="color-white font-xs"><span>154</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1163,7 +1164,7 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Finance</h6>
+                        <h6 class="color-white mb-5">Document Attestation</h6>
                         <p class="color-white font-xs"><span>546</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1173,7 +1174,7 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big1.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Market Research</h6>
+                        <h6 class="color-white mb-5">Skill Training And Testing</h6>
                         <p class="color-white font-xs"><span>24</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1183,7 +1184,7 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big2.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Furniture design</h6>
+                        <h6 class="color-white mb-5">Oversease Recruitment Service</h6>
                         <p class="color-white font-xs"><span>54</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1193,7 +1194,27 @@
                 <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
                     <div class="box-cover-img">
                       <div class="content-bottom">
-                        <h6 class="color-white mb-5">Content writer</h6>
+                        <h6 class="color-white mb-5">Travel And Tourism</h6>
+                        <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+              <div class="swiper-slide hover-up">
+                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
+                    <div class="box-cover-img">
+                      <div class="content-bottom">
+                        <h6 class="color-white mb-5">Umrah</h6>
+                        <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+              <div class="swiper-slide hover-up">
+                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
+                    <div class="box-cover-img">
+                      <div class="content-bottom">
+                        <h6 class="color-white mb-5">Web And App Development</h6>
                         <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
                       </div>
                     </div>
@@ -1210,7 +1231,7 @@
   <section class="section-box mt-50">
     <div class="container">
       <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Jobs by Location</h2>
+        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Our Presence</h2>
         <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Find your favourite jobs and get the benefits of yourself</p>
       </div>
       <div class="container">
@@ -1341,7 +1362,7 @@
     <div class="container">
       <div class="text-start">
         <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Top Recruiters</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Discover your next career move, freelance gig, or internship</p>
+        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Discover your next career move</p>
       </div>
     </div>
     <div class="container">

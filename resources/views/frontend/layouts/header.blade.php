@@ -2,7 +2,7 @@
     <div class="container">
         <div class="main-header">
             <div class="header-left">
-                <div class="header-logo"><a class="d-flex" href="index.html"><img width="139" height="36" alt="jobBox" src="../assets/imgs/template/WhatsApp Image 2024-08-15 at 20.29.51.jpeg"></a></div>
+                <div class="header-logo"><a class="d-flex" href="{{ route('home') }}"><img width="139" height="36" alt="jobBox" src="../assets/imgs/template/WhatsApp Image 2024-08-15 at 20.29.51.jpeg"></a></div>
             </div>
             <div class="header-nav">
                 <nav class="nav-main-menu">
@@ -19,31 +19,31 @@
                         </li>
                         <li class="has-children"><a href="companies-grid.html">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Overseas Recruitment Service</a></li>
-                                <li><a href="#">Global Executive Search</a></li>
-                                <li><a href="#">Document Attestation</a></li>
-                                <li><a href="#">Skill Training & Testing Centre</a></li>
-                                <li><a href="#">Travel & Tourism</a></li>
-                                <li><a href="#">Umrah</a></li>
-                                <li><a href="#">Web & app development</a></li>
-                                <li><a href="#">Digital Marketing</a></li>
+                                <li><a href="{{ route('overseas.recruitment.service') }}">Overseas Recruitment Service</a></li>
+                                <li><a href="{{ route('global.executive.search') }}">Global Executive Search</a></li>
+                                <li><a href="{{ route('document.attestation') }}">Document Attestation</a></li>
+                                <li><a href="{{ route('skill.training.testing') }}">Skill Training & Testing Centre</a></li>
+                                <li><a href="{{ route('travel.tourism') }}">Travel & Tourism</a></li>
+                                <li><a href="{{ route('umrah') }}">Umrah</a></li>
+                                <li><a href="{{ route('web.app.development') }}">Web & App Development</a></li>
+                                <li><a href="{{ route('digital.marketing') }}">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li class="has-children"><a href="#">Clients</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Saudi Arabia</a></li>
-                                <li><a href="#">UAE</a></li>
-                                <li><a href="#">Qatar</a></li>
-                                <li><a href="#">Kingdom of Bahrain</a></li>
-                                <li><a href="#">Oman</a></li>
+                                <li><a href="{{ route('saudi.arabia') }}">Saudi Arabia</a></li>
+                                <li><a href="{{ route('uae') }}">UAE</a></li>
+                                <li><a href="{{ route('qatar') }}">Qatar</a></li>
+                                <li><a href="{{ route('kingdom.of.bahrain') }}">Kingdom of Bahrain</a></li>
+                                <li><a href="{{ route('oman') }}">Oman</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Jobs</a>
+                        <li><a href="{{ route('jobs.list') }}">Jobs</a>
                         </li>
                         <li class="has-children"><a href="#">Gallery</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Photo Gallery</a></li>
-                                <li><a href="#">Technical Trade</a></li>
+                                <li><a href="{{ route('photo.gallery') }}">Photo Gallery</a></li>
+                                <li><a href="{{ route('technical.trade') }}">Technical Trade</a></li>
                             </ul>
                         </li>
                         <li class="has-children"><a href="#">Industry</a>

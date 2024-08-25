@@ -1,5 +1,5 @@
 /**
- * TinyMCE version 6.8.2 (2023-12-11)
+ * TinyMCE version 7.2.1 (2024-07-03)
  */
 
 (function () {
@@ -1279,6 +1279,7 @@
           });
           api.showTab('general');
           changeSrc(helpers, info, state, api);
+          api.focus('src');
         };
         blobToDataUri(file).then(dataUrl => {
           const blobInfo = helpers.createBlobCache(file, blobUri, dataUrl);
