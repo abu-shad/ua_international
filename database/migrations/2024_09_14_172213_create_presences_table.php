@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('presences', function (Blueprint $table) {
             $table->id();
             $table->string('location_name')->nullable();
-            $table->string('vaccency')->nullable();
+            $table->string('vacancy')->nullable();
             $table->string('companies')->nullable();
             $table->string('location_image')->nullable();
             $table->string('url')->nullable();
