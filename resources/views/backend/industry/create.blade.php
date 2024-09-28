@@ -23,7 +23,15 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Industry Form Elements</h5>
-
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
             <!-- General Form Elements -->
             <form action="{{ route('industry.create') }}" method="POST" >
               @csrf

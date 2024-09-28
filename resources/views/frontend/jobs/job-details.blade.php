@@ -13,36 +13,56 @@
                     <h2 class="mt-10 mb-5 text-brand-1 text-capitalize">Start your career today</h2>
                     <p class="font-sm text-muted mb-30">Please fill in your information and send it to the employer. </p>
                 </div>
-                <form class="login-register text-start mt-20 pb-30" action="#">
+                
+                <form class="login-register text-start mt-20 pb-30" action="{{ route('create.job.detail') }}" method="POST" enctype="multipart/form-data">
+                    @csrf <!-- CSRF token for security -->
+                    <input class="form-control" id="jobId" type="hidden" name="job_id"  value="{{ $job->id }}" required>
+                    
                     <div class="form-group">
-                        <label class="form-label" for="input-1">Full Name *</label>
-                        <input class="form-control" id="input-1" type="text" required="" name="fullname" placeholder="Steven Job">
+                        <label class="form-label" for="fullname">Full Name *</label>
+                        <input class="form-control @error('fullname') is-invalid @enderror" id="fullname" type="text" name="fullname"  value="{{ old('fullname') }}" required>
+                        @error('fullname')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </div>
+                
                     <div class="form-group">
-                        <label class="form-label" for="input-2">Email *</label>
-                        <input class="form-control" id="input-2" type="email" required="" name="emailaddress" placeholder="stevenjob@gmail.com">
+                        <label class="form-label" for="email">Email *</label>
+                        <input class="form-control @error('email') is-invalid @enderror" id="email" type="email" name="email"  value="{{ old('email') }}" required>
+                        @error('email')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </div>
+                
                     <div class="form-group">
-                        <label class="form-label" for="number">Contact Number *</label>
-                        <input class="form-control" id="number" type="text" required="" name="phone" placeholder="(+01) 234 567 89">
+                        <label class="form-label" for="phone">Contact Number *</label>
+                        <input class="form-control @error('phone') is-invalid @enderror" id="phone" type="text" name="phone"  value="{{ old('phone') }}" required>
+                        @error('phone')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </div>
+                
                     <div class="form-group">
-                        <label class="form-label" for="des">Description</label>
-                        <input class="form-control" id="des" type="text" required="" name="Description" placeholder="Your description...">
+                        <label class="form-label" for="description">Description</label>
+                        <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description"  required>{{ old('description') }}</textarea>
+                        @error('description')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </div>
+                
                     <div class="form-group">
-                        <label class="form-label" for="file">Upload Resume</label>
-                        <input class="form-control" id="file" name="resume" type="file">
+                        <label class="form-label" for="resume">Upload Resume</label>
+                        <input class="form-control @error('resume') is-invalid @enderror" id="resume" name="resume" type="file" accept=".pdf,.doc,.docx">
+                        @error('resume')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
                     </div>
-                    <div class="login_footer form-group d-flex justify-content-between">
-                        <label class="cb-container">
-                            <input type="checkbox"><span class="text-small">Agree our terms and policy</span><span class="checkmark"></span>
-                        </label><a class="text-muted" href="page-contact.html">Lean more</a>
-                    </div>
+                
                     <div class="form-group">
-                        <button class="btn btn-default hover-up w-100" type="submit" name="login">Apply Job</button>
+                        <button class="btn btn-default hover-up w-100" type="submit">Apply for Job</button>
                     </div>
-                    <div class="text-muted text-center">Do you need support? <a href="page-contact.html">Contact Us</a></div>
+                
+                    <div class="text-muted text-center">Do you need support? <a href="{{ route('help.desk') }}">Contact Us</a></div>
                 </form>
             </div>
         </div>
@@ -52,113 +72,121 @@
     <section class="section-box mt-50">
         <div class="container">
             <div class="row">
+                <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
+
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="box-border-single">
                         <div class="row mt-10">
                             <div class="col-lg-8 col-md-12">
-                                <h3>Senior Full Stack Engineer, Creator Success Full Time</h3>
-                                <div class="mt-0 mb-15"><span class="card-briefcase">Fulltime</span><span class="card-time">3 mins ago</span></div>
+                                <h3>{{ $job->title ?? 'N/A' }}</h3>
+                                <div class="mt-0 mb-15">
+                                    <span class="card-briefcase">{{ $job->employment_type ?? 'N/A' }}</span>
+                                    @php
+                                        $postedAt = strtotime($job->posted_at ?? 'now');
+                                        $now = time(); 
+                    
+                                        $diffInSeconds = $now - $postedAt;
+                                        $diffInDays = round($diffInSeconds / 86400);
+                    
+                                        $postedDate = date('Y-m-d', $postedAt);
+                                        $currentDate = date('Y-m-d', $now);
+                                    @endphp
+                                    <span class="card-time">
+                                        @if ($postedDate === $currentDate)
+                                            <p>Posted Today</p>
+                                        @else
+                                            <p>Posted {{ $diffInDays }} days ago</p>
+                                        @endif
+                                    </span>
+                                </div>
                             </div>
                             <div class="col-lg-4 col-md-12 text-lg-end">
                                 <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</div>
                             </div>
                         </div>
                         <div class="border-bottom pt-10 pb-10"></div>
-                        <div class="banner-hero banner-image-single mt-10 mb-20"><img src="/../assets/imgs/page/job-single-2/img.png" alt="jobBox"></div>
+                        @if (session('success'))
+                        <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif
+
+                        @if (session('error'))
+                        <div class="alert alert-danger">{{ session('error') }}</div>
+                        @endif
+                        <div class="banner-hero banner-image-single mt-10 mb-20"><img src="/../assets/imgs/page/job-single-2/hiring.jpg" alt="UA"></div>
                         <div class="job-overview">
                             <h5 class="border-bottom pb-15 mb-30">Overview</h5>
                             <div class="row">
                                 <div class="col-md-6 d-flex">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/industry.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Industry</span><strong class="small-heading"> Mechanical / Auto / Automotive, Civil / Construction</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/industry.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description industry-icon mb-10">Industry</span><strong class="small-heading">{{ $job->industry->name ?? 'N/A' }}</strong></div>
                                 </div>
                                 <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/job-level.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description joblevel-icon mb-10">Job level</span><strong class="small-heading">Experienced (Non - Manager)</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/updated.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Updated</span><strong class="small-heading">{{ $job->posted_at ?? 'N/A' }}</strong></div>
                                 </div>
                             </div>
                             <div class="row mt-25">
                                 <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/salary.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Salary</span><strong class="small-heading">$800 - $1000</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/salary.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Salary</span><strong class="small-heading">{{ ($job->salary_min ?? 'N/A') . ' - ' . ($job->salary_max ?? 'N/A') }}</strong></div>
                                 </div>
                                 <div class="col-md-6 d-flex">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/experience.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Experience</span><strong class="small-heading">1 - 2 years</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/experience.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description experience-icon mb-10">Experience</span><strong class="small-heading">{{ str_replace("_", " ", $job->experience_level ?? 'N/A') }}</strong></div>
                                 </div>
                             </div>
                             <div class="row mt-25">
                                 <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/job-type.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Job type</span><strong class="small-heading">Permanent</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/job-type.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Job type</span><strong class="small-heading">{{ $job->employment_type ?? 'N/A' }}</strong></div>
                                 </div>
                                 <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/deadline.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Deadline</span><strong class="small-heading">10/08/2022</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/deadline.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Deadline</span><strong class="small-heading">{{ $job->expires_at ?? 'N/A' }}</strong></div>
                                 </div>
                             </div>
                             <div class="row mt-25">
                                 <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/updated.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">Updated</span><strong class="small-heading">10/07/2022</strong></div>
-                                </div>
-                                <div class="col-md-6 d-flex mt-sm-15">
-                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/location.svg" alt="jobBox"></div>
-                                    <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Location</span><strong class="small-heading">Dallas, Texas Remote Friendly</strong></div>
+                                    <div class="sidebar-icon-item"><img src="/../assets/imgs/page/job-single/location.svg" alt="UA"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Location</span><strong class="small-heading">{{ $job->location ?? 'N/A' }}</strong></div>
                                 </div>
                             </div>
                         </div>
                         <div class="content-single">
-                            <h4>Welcome to AliStudio Team</h4>
-                            <p>The AliStudio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.</p>
-                            <p>
-                                The ideal candidate will have strong creative skills and a portfolio of work which demonstrates their passion for illustrative design and typography. This candidate will have experiences in working with numerous different design platforms such as digital
-                                and print forms.
-                            </p>
-                            <h4>Essential Knowledge, Skills, and Experience</h4>
-                            <ul>
-                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
-                                <li>5+ years of industry experience in interactive design and / or visual design</li>
-                                <li>Excellent interpersonal skills</li>
-                                <li>Aware of trends in&#x202F;mobile, communications, and collaboration</li>
-                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
-                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
-                                <li>History of impacting shipping products with your work</li>
-                                <li>A Bachelor&rsquo;s Degree in Design (or related field) or equivalent professional experience</li>
-                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
-                            </ul>
-                            <h4>Preferred Experience</h4>
-                            <ul>
-                                <li>Designing user experiences for enterprise software / services</li>
-                                <li>Creating and applying established design principles and interaction patterns</li>
-                                <li>Aligning or influencing design thinking with teams working in other geographies</li>
-                            </ul>
-                            <h4>Product Designer</h4>
-                            <p><strong>Product knowledge:</strong> Deeply understand the technology and features of the product area to which you are assigned.</p>
-                            <p><strong>Research:</strong> Provide human and business impact and insights for products.</p>
-                            <p><strong>Deliverables:</strong> Create deliverables for your product area (for example competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through
-                                the user experience.
-                            </p>
-                            <p><strong>Communication:</strong> Communicate the results of UX activities within your product area to the design team department, cross-functional partners within your product area, and other interested Superformula team
-                                members using clear language that simplifies complexity.
-                            </p>
+                            <h4>Description</h4>
+                            <p>{{ $job->description ?? 'N/A' }}</p>
+                            <h4>Requirements</h4>
+                            <div class="col-xl-6 col-md-6 mb-2">
+                                @php
+                                    $requirements = json_decode($job->requirements ?? '[]', true);
+                                @endphp
+                                @if (!empty($requirements))
+                                    @foreach ($requirements as $requirement)
+                                        <span class="btn btn-tags-sm mr-5">{{ $requirement }}</span>
+                                    @endforeach
+                                @else
+                                    <p>N/A</p>
+                                @endif
+                            </div>
+                            <h4>Responsibility</h4>
+                            <p>{{ $job->responsibilities ?? 'N/A' }}</p>
                         </div>
-                        <div class="author-single"><span>AliThemes</span></div>
                         <div class="single-apply-jobs">
                             <div class="row align-items-center">
-                                <div class="col-md-5"><a class="btn btn-default mr-15" href="#">Apply now</a></div>
+                                <div class="col-md-5"><button class="btn btn-default mr-15" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Apply now</button></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12 pl-40 pl-lg-15 mt-lg-30">
+                <div class="col-lg-2 col-md-12 col-sm-12 col-12"></div>
+                {{-- <div class="col-lg-4 col-md-12 col-sm-12 col-12 pl-40 pl-lg-15 mt-lg-30">
                     <div class="sidebar-border">
                         <h6 class="f-18">Similar jobs</h6>
                         <div class="sidebar-list-job">
                             <ul>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-1.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-1.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">UI / UX Designer fulltime</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>3</span><span> mins ago</span></span></div>
@@ -175,7 +203,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-2.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-2.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Java Software Engineer</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>5</span><span> mins ago</span></span></div>
@@ -192,7 +220,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-3.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-3.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Frontend Developer</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>8</span><span> mins ago</span></span></div>
@@ -209,7 +237,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-4.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-4.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Cloud Engineer</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>12</span><span> mins ago</span></span></div>
@@ -226,7 +254,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-5.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-5.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">DevOps Engineer</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>34</span><span> mins ago</span></span></div>
@@ -243,7 +271,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-6.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-6.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Figma design UI/UX</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>45</span><span> mins ago</span></span></div>
@@ -260,7 +288,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-7.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-7.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">Product Manage</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>50</span><span> mins ago</span></span></div>
@@ -277,7 +305,7 @@
                                 </li>
                                 <li>
                                     <div class="card-list-4 wow animate__animated animate__fadeIn hover-up">
-                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-8.png" alt="jobBox"></a></div>
+                                        <div class="image"><a href="job-details.html"><img src="/../assets/imgs/brands/brand-8.png" alt="UA"></a></div>
                                         <div class="info-text">
                                             <h5 class="font-md font-bold color-brand-1"><a href="job-details.html">UI / UX Designer</a></h5>
                                             <div class="mt-0"><span class="card-briefcase">Fulltime</span><span class="card-time"><span>58</span><span> mins ago</span></span></div>
@@ -295,7 +323,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

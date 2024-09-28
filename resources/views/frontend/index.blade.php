@@ -3,1622 +3,630 @@
 @section('title', 'Home')
 
 @section('content')
-<main class="main">
-  <section class="section-box">
-    <div class="banner-hero hero-2">
-      <div class="banner-inner">
-        <div class="block-banner">
-          <h1 class="text-42 color-white wow animate__animated animate__fadeInUp"><span class="color-green">Global Recruitment Services</span><br class="d-none d-lg-block">Find your next job</h1>
-          <div class="font-lg font-regular color-white mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000 applications every single day</div>
-          <!-- <div class="form-find mt-40 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-            <form>
-              <div class="box-industry">
-                <select class="form-input mr-10 select-active input-industry">
-                  <option value="0">Industry</option>
-                  <option value="1">Software</option>
-                  <option value="2">Finance</option>
-                  <option value="3">Recruting</option>
-                  <option value="4">Management</option>
-                  <option value="5">Advertising</option>
-                  <option value="6">Development</option>
-                </select>
-              </div>
-              <select class="form-input mr-10 select-active">
-                <option value="">Location</option>
-                <option value="AX">Aland Islands</option>
-                <option value="AF">Afghanistan</option>
-                <option value="AL">Albania</option>
-                <option value="DZ">Algeria</option>
-                <option value="AD">Andorra</option>
-                <option value="AO">Angola</option>
-                <option value="AI">Anguilla</option>
-                <option value="AQ">Antarctica</option>
-                <option value="AG">Antigua and Barbuda</option>
-                <option value="AR">Argentina</option>
-                <option value="AM">Armenia</option>
-                <option value="AW">Aruba</option>
-                <option value="AU">Australia</option>
-                <option value="AT">Austria</option>
-                <option value="AZ">Azerbaijan</option>
-                <option value="BS">Bahamas</option>
-                <option value="BH">Bahrain</option>
-                <option value="BD">Bangladesh</option>
-                <option value="BB">Barbados</option>
-                <option value="BY">Belarus</option>
-                <option value="PW">Belau</option>
-                <option value="BE">Belgium</option>
-                <option value="BZ">Belize</option>
-                <option value="BJ">Benin</option>
-                <option value="BM">Bermuda</option>
-                <option value="BT">Bhutan</option>
-                <option value="BO">Bolivia</option>
-                <option value="BQ">Bonaire, Saint Eustatius and Saba</option>
-                <option value="BA">Bosnia and Herzegovina</option>
-                <option value="BW">Botswana</option>
-                <option value="BV">Bouvet Island</option>
-                <option value="BR">Brazil</option>
-                <option value="IO">British Indian Ocean Territory</option>
-                <option value="VG">British Virgin Islands</option>
-                <option value="BN">Brunei</option>
-                <option value="BG">Bulgaria</option>
-                <option value="BF">Burkina Faso</option>
-                <option value="BI">Burundi</option>
-                <option value="KH">Cambodia</option>
-                <option value="CM">Cameroon</option>
-                <option value="CA">Canada</option>
-                <option value="CV">Cape Verde</option>
-                <option value="KY">Cayman Islands</option>
-                <option value="CF">Central African Republic</option>
-                <option value="TD">Chad</option>
-                <option value="CL">Chile</option>
-                <option value="CN">China</option>
-                <option value="CX">Christmas Island</option>
-                <option value="CC">Cocos (Keeling) Islands</option>
-                <option value="CO">Colombia</option>
-                <option value="KM">Comoros</option>
-                <option value="CG">Congo (Brazzaville)</option>
-                <option value="CD">Congo (Kinshasa)</option>
-                <option value="CK">Cook Islands</option>
-                <option value="CR">Costa Rica</option>
-                <option value="HR">Croatia</option>
-                <option value="CU">Cuba</option>
-                <option value="CW">Cura&Ccedil;ao</option>
-                <option value="CY">Cyprus</option>
-                <option value="CZ">Czech Republic</option>
-                <option value="DK">Denmark</option>
-                <option value="DJ">Djibouti</option>
-                <option value="DM">Dominica</option>
-                <option value="DO">Dominican Republic</option>
-                <option value="EC">Ecuador</option>
-                <option value="EG">Egypt</option>
-                <option value="SV">El Salvador</option>
-                <option value="GQ">Equatorial Guinea</option>
-                <option value="ER">Eritrea</option>
-                <option value="EE">Estonia</option>
-                <option value="ET">Ethiopia</option>
-                <option value="FK">Falkland Islands</option>
-                <option value="FO">Faroe Islands</option>
-                <option value="FJ">Fiji</option>
-                <option value="FI">Finland</option>
-                <option value="FR">France</option>
-                <option value="GF">French Guiana</option>
-                <option value="PF">French Polynesia</option>
-                <option value="TF">French Southern Territories</option>
-                <option value="GA">Gabon</option>
-                <option value="GM">Gambia</option>
-                <option value="GE">Georgia</option>
-                <option value="DE">Germany</option>
-                <option value="GH">Ghana</option>
-                <option value="GI">Gibraltar</option>
-                <option value="GR">Greece</option>
-                <option value="GL">Greenland</option>
-                <option value="GD">Grenada</option>
-                <option value="GP">Guadeloupe</option>
-                <option value="GT">Guatemala</option>
-                <option value="GG">Guernsey</option>
-                <option value="GN">Guinea</option>
-                <option value="GW">Guinea-Bissau</option>
-                <option value="GY">Guyana</option>
-                <option value="HT">Haiti</option>
-                <option value="HM">Heard Island and McDonald Islands</option>
-                <option value="HN">Honduras</option>
-                <option value="HK">Hong Kong</option>
-                <option value="HU">Hungary</option>
-                <option value="IS">Iceland</option>
-                <option value="IN">India</option>
-                <option value="ID">Indonesia</option>
-                <option value="IR">Iran</option>
-                <option value="IQ">Iraq</option>
-                <option value="IM">Isle of Man</option>
-                <option value="IL">Israel</option>
-                <option value="IT">Italy</option>
-                <option value="CI">Ivory Coast</option>
-                <option value="JM">Jamaica</option>
-                <option value="JP">Japan</option>
-                <option value="JE">Jersey</option>
-                <option value="JO">Jordan</option>
-                <option value="KZ">Kazakhstan</option>
-                <option value="KE">Kenya</option>
-                <option value="KI">Kiribati</option>
-                <option value="KW">Kuwait</option>
-                <option value="KG">Kyrgyzstan</option>
-                <option value="LA">Laos</option>
-                <option value="LV">Latvia</option>
-                <option value="LB">Lebanon</option>
-                <option value="LS">Lesotho</option>
-                <option value="LR">Liberia</option>
-                <option value="LY">Libya</option>
-                <option value="LI">Liechtenstein</option>
-                <option value="LT">Lithuania</option>
-                <option value="LU">Luxembourg</option>
-                <option value="MO">Macao S.A.R., China</option>
-                <option value="MK">Macedonia</option>
-                <option value="MG">Madagascar</option>
-                <option value="MW">Malawi</option>
-                <option value="MY">Malaysia</option>
-                <option value="MV">Maldives</option>
-                <option value="ML">Mali</option>
-                <option value="MT">Malta</option>
-                <option value="MH">Marshall Islands</option>
-                <option value="MQ">Martinique</option>
-                <option value="MR">Mauritania</option>
-                <option value="MU">Mauritius</option>
-                <option value="YT">Mayotte</option>
-                <option value="MX">Mexico</option>
-                <option value="FM">Micronesia</option>
-                <option value="MD">Moldova</option>
-                <option value="MC">Monaco</option>
-                <option value="MN">Mongolia</option>
-                <option value="ME">Montenegro</option>
-                <option value="MS">Montserrat</option>
-                <option value="MA">Morocco</option>
-                <option value="MZ">Mozambique</option>
-                <option value="MM">Myanmar</option>
-                <option value="NA">Namibia</option>
-                <option value="NR">Nauru</option>
-                <option value="NP">Nepal</option>
-                <option value="NL">Netherlands</option>
-                <option value="AN">Netherlands Antilles</option>
-                <option value="NC">New Caledonia</option>
-                <option value="NZ">New Zealand</option>
-                <option value="NI">Nicaragua</option>
-                <option value="NE">Niger</option>
-                <option value="NG">Nigeria</option>
-                <option value="NU">Niue</option>
-                <option value="NF">Norfolk Island</option>
-                <option value="KP">North Korea</option>
-                <option value="NO">Norway</option>
-                <option value="OM">Oman</option>
-                <option value="PK">Pakistan</option>
-                <option value="PS">Palestinian Territory</option>
-                <option value="PA">Panama</option>
-                <option value="PG">Papua New Guinea</option>
-                <option value="PY">Paraguay</option>
-                <option value="PE">Peru</option>
-                <option value="PH">Philippines</option>
-                <option value="PN">Pitcairn</option>
-                <option value="PL">Poland</option>
-                <option value="PT">Portugal</option>
-                <option value="QA">Qatar</option>
-                <option value="IE">Republic of Ireland</option>
-                <option value="RE">Reunion</option>
-                <option value="RO">Romania</option>
-                <option value="RU">Russia</option>
-                <option value="RW">Rwanda</option>
-                <option value="ST">S&atilde;o Tom&eacute; and Pr&iacute;ncipe</option>
-                <option value="BL">Saint Barth&eacute;lemy</option>
-                <option value="SH">Saint Helena</option>
-                <option value="KN">Saint Kitts and Nevis</option>
-                <option value="LC">Saint Lucia</option>
-                <option value="SX">Saint Martin (Dutch part)</option>
-                <option value="MF">Saint Martin (French part)</option>
-                <option value="PM">Saint Pierre and Miquelon</option>
-                <option value="VC">Saint Vincent and the Grenadines</option>
-                <option value="SM">San Marino</option>
-                <option value="SA">Saudi Arabia</option>
-                <option value="SN">Senegal</option>
-                <option value="RS">Serbia</option>
-                <option value="SC">Seychelles</option>
-                <option value="SL">Sierra Leone</option>
-                <option value="SG">Singapore</option>
-                <option value="SK">Slovakia</option>
-                <option value="SI">Slovenia</option>
-                <option value="SB">Solomon Islands</option>
-                <option value="SO">Somalia</option>
-                <option value="ZA">South Africa</option>
-                <option value="GS">South Georgia/Sandwich Islands</option>
-                <option value="KR">South Korea</option>
-                <option value="SS">South Sudan</option>
-                <option value="ES">Spain</option>
-                <option value="LK">Sri Lanka</option>
-                <option value="SD">Sudan</option>
-                <option value="SR">Suriname</option>
-                <option value="SJ">Svalbard and Jan Mayen</option>
-                <option value="SZ">Swaziland</option>
-                <option value="SE">Sweden</option>
-                <option value="CH">Switzerland</option>
-                <option value="SY">Syria</option>
-                <option value="TW">Taiwan</option>
-                <option value="TJ">Tajikistan</option>
-                <option value="TZ">Tanzania</option>
-                <option value="TH">Thailand</option>
-                <option value="TL">Timor-Leste</option>
-                <option value="TG">Togo</option>
-                <option value="TK">Tokelau</option>
-                <option value="TO">Tonga</option>
-                <option value="TT">Trinidad and Tobago</option>
-                <option value="TN">Tunisia</option>
-                <option value="TR">Turkey</option>
-                <option value="TM">Turkmenistan</option>
-                <option value="TC">Turks and Caicos Islands</option>
-                <option value="TV">Tuvalu</option>
-                <option value="UG">Uganda</option>
-                <option value="UA">Ukraine</option>
-                <option value="AE">United Arab Emirates</option>
-                <option value="GB">United Kingdom (UK)</option>
-                <option value="US">USA (US)</option>
-                <option value="UY">Uruguay</option>
-                <option value="UZ">Uzbekistan</option>
-                <option value="VU">Vanuatu</option>
-                <option value="VA">Vatican</option>
-                <option value="VE">Venezuela</option>
-                <option value="VN">Vietnam</option>
-                <option value="WF">Wallis and Futuna</option>
-                <option value="EH">Western Sahara</option>
-                <option value="WS">Western Samoa</option>
-                <option value="YE">Yemen</option>
-                <option value="ZM">Zambia</option>
-                <option value="ZW">Zimbabwe</option>
-              </select>
-              <input class="form-input input-keysearch mr-10" type="text" placeholder="Your keyword... ">
-              <button class="btn btn-default btn-find font-sm">Search</button>
-            </form>
-          </div> -->
-          <!-- <div class="list-tags-banner mt-20 wow animate__animated animate__fadeInUp" data-wow-delay=".3s"><strong>Popular Searches:</strong><a href="#">Designer</a>, <a href="#">Web</a>, <a href="#">IOS</a>, <a href="#">Developer</a>, <a href="#">PHP</a>, <a href="#">Senior</a>, <a href="#">Engineer</a></div>
-        </div> -->
-        <div class="mt-60">
-          <div class="row">
-            <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
-              <div class="d-inline-block text-start">
-                <h4 class="color-white"> <span class="count">265</span><span> K+</span></h4>
-                <p class="font-sm color-text-mutted">Daily Jobs Posted</p>
-              </div>
+    <main class="main">
+        <div class="border-bottom" style="background:#eee;">
+            <div>
+                <marquee behavior="scroll" direction="left" class="fw-bold" style="font-size:16px;" scrolldelay="5">
+                    @foreach ($marques as $marque)
+                        <span class="me-5" style="color:#df0a0a"> &#x1F4EF; {{ $marque['title'] }} </span>
+                    @endforeach
+
+                </marquee>
             </div>
-            <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
-              <div class="d-inline-block text-start">
-                <h4 class="color-white"><span class="count">17</span><span> K+</span></h4>
-                <p class="font-sm color-text-mutted">Recruiters</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
-              <div class="d-inline-block text-start">
-                <h4 class="color-white"> <span class="count">15</span><span> K+</span></h4>
-                <p class="font-sm color-text-mutted">Freelancers</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
-              <div class="d-inline-block text-start">
-                <h4 class="color-white"> <span class="count">28</span><span> K+</span></h4>
-                <p class="font-sm color-text-mutted">Blog Tips</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    
-  </section>
-  <div class="container">
-      <div class="list-brands mt-40 mb-30">
-        <div class="box-swiper">
-          <div class="swiper-container swiper-group-9 swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/microsoft.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/sony.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/acer.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/nokia.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/assus.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/casio.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/dell.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/panasonic.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/vaio.svg" alt="Uainternational"></a></div>
-              <div class="swiper-slide"><a href="#"><img src="assets/imgs/slider/logo/sharp.svg" alt="Uainternational"></a></div>
+        <section class="section-box">
+            <div class="banner-hero hero-2">
+                <div class="banner-inner">
+                    <div class="block-banner">
+                        <h1 class="text-42 color-white wow animate__animated animate__fadeInUp"><span
+                                class="text-danger">Global Recruitment Services</span><br class="d-none d-lg-block">Find
+                            your
+                            next job</h1>
+                        <div class="font-lg font-regular color-white mt-20 wow animate__animated animate__fadeInUp"
+                            data-wow-delay=".1s">UA International Established in New Delhi since the last 7 years, UA
+                            International is a well renowned company that has an experience in the arena of manpower
+                            recruitment across the globe. We are developing our competence in the field of operation and
+                            maintenance.</div>
+
+                        <div class="mt-60">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
+                                    <div class="d-inline-block text-start">
+                                        <h4 class="color-white"> <span class="count">6</span><span>K+</span></h4>
+                                        <p class="font-sm color-text-mutted">Candidate Deployed Globally</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
+                                    <div class="d-inline-block text-start">
+                                        <h4 class="color-white"><span class="count">5</span><span> K+</span></h4>
+                                        <p class="font-sm color-text-mutted">Happy Clients</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
+                                    <div class="d-inline-block text-start">
+                                        <h4 class="color-white"> <span class="count">200</span><span></span></h4>
+                                        <p class="font-sm color-text-mutted">Team of employees</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-6 text-center mb-20">
+                                    <div class="d-inline-block text-start">
+                                        <h4 class="color-white"> <span class="count">25</span><span></span></h4>
+                                        <p class="font-sm color-text-mutted">Branches & Offices</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="section-box mt-30">
+            <div class="container">
+                <div class="text-start">
+                    <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Hot Jobs</h2>
+                    <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search for hot jobs.
+                    </p>
+                    <div class="list-tabs mt-40">
+                        <ul class="nav nav-tabs" role="tablist">
+                            @foreach ($industries as $index => $industry)
+                                <li><a class="{{ $index === 0 ? 'active' : '' }}" id="nav-tab-job-{{ $industry->id }}"
+                                        href="#tab-job-{{ $industry->id }}" data-bs-toggle="tab" role="tab"
+                                        aria-controls="tab-job-{{ $industry->id }}"
+                                        aria-selected="{{ $index === 0 ? 'true' : 'false' }}"><img
+                                            src="{{ asset($industry->icon) }}" alt="Uainternational">
+                                        {{ $industry->name }}</a></li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-50">
+                    <div class="tab-content" id="myTabContent-1">
+                        @foreach ($industries as $index => $industry)
+                            <div class="tab-pane fade {{ $index === 0 ? 'show active' : '' }}"
+                                id="tab-job-{{ $industry->id }}" role="tabpanel"
+                                aria-labelledby="tab-job-{{ $industry->id }}">
+                                <!-- List jobs for this industry -->
+
+                                <div class="row">
+                                    @if ($industry->jobs->count())
+                                        @foreach ($industry->jobs as $job)
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                <div class="card-grid-2 grid-bd-16 hover-up">
+                                                    <div class="card-grid-2-image"><span
+                                                            class="lbl-hot bg-green"><span>{{ $job->employment_type }}</span></span>
+                                                        <div class="image-box">
+                                                            <figure><img src="{{ asset('storage/'.$job->job_image) }}"
+                                                                    alt="Uainternational"></figure>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block-info">
+                                                        <h5><a
+                                                                href="{{ route('job.detail', $job->id) }}">{{ $job->title }}</a>
+                                                        </h5>
+                                                        @php
+                                                            // Convert posted_at to timestamp
+                                                            $postedAt = strtotime($job->posted_at);
+                                                            $now = time(); // current timestamp
+
+                                                            // Calculate differences
+                                                            $diffInSeconds = $now - $postedAt;
+                                                            $diffInDays = round($diffInSeconds / 86400);
+
+                                                            // Format the posted date for comparison
+                                                            $postedDate = date('Y-m-d', $postedAt);
+                                                            $currentDate = date('Y-m-d', $now);
+                                                        @endphp
+                                                        <div class="mt-5"><span
+                                                                class="card-location mr-15">{{ $job->location }}</span>
+                                                            <span class="card-time">
+                                                                @if ($postedDate === $currentDate)
+                                                                    <p>Posted Today</p>
+                                                                @else
+                                                                    <p>Posted {{ $diffInDays }} days ago</p>
+                                                                @endif
+                                                            </span>
+                                                        </div>
+                                                        <div class="card-2-bottom mt-20">
+                                                            <div class="row">
+                                                                <div class="col-xl-6 col-md-6 mb-2">
+                                                                    @php
+                                                                        $requirements = json_decode(
+                                                                            $job->requirements,
+                                                                            true,
+                                                                        );
+                                                                    @endphp
+                                                                    @if (!empty($requirements))
+                                                                        @foreach ($requirements as $requirement)
+                                                                            <span
+                                                                                class="btn btn-tags-sm mr-5">{{ $requirement }}</span>
+                                                                        @endforeach
+                                                                    @endif
+                                                                </div>
+                                                                <div class="col-xl-6 col-md-6 text-lg-end">
+                                                                    <span
+                                                                        class="card-text-price d-inline">{{ $job->salary_max }}</span>
+                                                                    <span class="text-muted d-inline"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="font-sm color-text-paragraph mt-20">
+                                                            {{ $job->description }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+                                    @else
+                                        <p>No jobs available in this industry.</p>
+                                    @endif
+                                </div>
+
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <section class="section-box mt-30">
-    <div class="container">
-      <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Hot Jobs</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search and apply faster.</p>
-        <div class="list-tabs mt-40">
-          <ul class="nav nav-tabs" role="tablist">
-            <li><a class="active" id="nav-tab-job-1" href="#tab-job-1" data-bs-toggle="tab" role="tab" aria-controls="tab-job-1" aria-selected="true"><img src="assets/imgs/page/homepage1/management.svg" alt="Uainternational"> Automobiles</a></li>
-            <li><a id="nav-tab-job-2" href="#tab-job-2" data-bs-toggle="tab" role="tab" aria-controls="tab-job-2" aria-selected="false"><img src="assets/imgs/page/homepage1/marketing.svg" alt="Uainternational"> FCMG</a></li>
-            <li><a id="nav-tab-job-3" href="#tab-job-3" data-bs-toggle="tab" role="tab" aria-controls="tab-job-3" aria-selected="false"><img src="assets/imgs/page/homepage1/finance.svg" alt="Uainternational"> Construction</a></li>
-            <li><a id="nav-tab-job-4" href="#tab-job-4" data-bs-toggle="tab" role="tab" aria-controls="tab-job-4" aria-selected="false"><img src="assets/imgs/page/homepage1/human.svg" alt="Uainternational"> Healthcare</a></li>
-            <li><a id="nav-tab-job-5" href="#tab-job-5" data-bs-toggle="tab" role="tab" aria-controls="tab-job-5" aria-selected="false"><img src="assets/imgs/page/homepage1/retail.svg" alt="Uainternational"> Hospitality</a></li>
-            <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="Uainternational"> Information Technologies</a></li>
-            <li><a id="nav-tab-job-6" href="#tab-job-6" data-bs-toggle="tab" role="tab" aria-controls="tab-job-6" aria-selected="false"><img src="assets/imgs/page/homepage1/content.svg" alt="Uainternational"> Oil And Gas</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="mt-50">
-        <div class="tab-content" id="myTabContent-1">
-          <div class="tab-pane fade show active" id="tab-job-1" role="tabpanel" aria-labelledby="tab-job-1">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
+        </section>
+        <section class="section-box mt-50">
+            <div class="section-box wow animate__animated animate__fadeIn">
+                <div class="container">
+                    <div class="text-start">
+                        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Popular Services</h2>
+                        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Explore services.
+                        </p>
                     </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
+                    <div class="box-swiper mt-50">
+                        <div class="swiper-container swiper-group-6 mh-none swiper">
+                            <div class="swiper-wrapper pb-70 pt-5">
+                                @foreach ($services as $service)
+                                    <div class="swiper-slide hover-up">
+                                        <div class="card-grid-5 card-category hover-up"
+                                            style="background-image: url({{ $service->bg_image }})">
+                                            <a href="{{ route($service->url) }}">
+                                                <div class="box-cover-img">
+                                                    <div class="content-bottom">
+                                                        <h6 class="color-white mb-5">{{ $service->name }}</h6>
+                                                        <p class="color-white font-xs"><span>123</span><span> Jobs
+                                                                Available</span></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
                         </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
+                        <div class="swiper-button-next swiper-button-next-1"></div>
+                        <div class="swiper-button-prev swiper-button-prev-1"></div>
                     </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
                 </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="tab-job-2" role="tabpanel" aria-labelledby="tab-job-2">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
+        </section>
+        <section class="section-box mt-50">
+            <div class="container">
+                <div class="text-start">
+                    <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Our Presence</h2>
+                    <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Find our presence.
+                    </p>
                 </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
+                <div class="container">
+                    <div class="row mt-50">
+                        @foreach ($presences as $presence)
+                            <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
+                                <div class="card-image-top hover-up"><a href="#">
+                                        <div class="image"
+                                            style="background-image: url({{ asset($presence->location_image) }});"><span
+                                                class="lbl-hot">Trending</span></div>
+                                    </a>
+                                    <div class="informations"><a href="#">
+                                            <h5>{{ $presence->location_name }}</h5>
+                                        </a>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-6"><span
+                                                    class="text-14 color-text-paragraph-2">{{ $presence->vacency }}
+                                                    Vacancy</span></div>
+                                            <div class="col-lg-6 col-6 text-end"><span
+                                                    class="color-text-paragraph-2 text-14">{{ $presence->companies }}
+                                                    companies</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
                     </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
                 </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="tab-job-3" role="tabpanel" aria-labelledby="tab-job-3">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"></div>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="tab-job-4" role="tabpanel" aria-labelledby="tab-job-4">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="tab-job-5" role="tabpanel" aria-labelledby="tab-job-5">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="tab-job-6" role="tabpanel" aria-labelledby="tab-job-6">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img4.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Full Stack Engineer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">13 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NodeJS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">MongoDB</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot bg-green"><span>Freelancer</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img1.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Web Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">New York, US</span><span class="card-time">3 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Figma</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Adobe XD</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$90 - $120</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img2.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Digital Marketing Manager</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">6 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">SEO</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Word</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img3.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Web Designer/Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">9 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">HTML</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">CSS</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">JS</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$120 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img5.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">Frontend Developer Full time</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">16 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">Bootstrap</a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="card-grid-2 grid-bd-16 hover-up">
-                  <div class="card-grid-2-image"><span class="lbl-hot"><span>Full time</span></span>
-                    <div class="image-box">
-                      <figure><img src="assets/imgs/page/homepage2/img6.png" alt="Uainternational"></figure>
-                    </div>
-                  </div>
-                  <div class="card-block-info">
-                    <h5><a href="job-details.html">React Native Mobile Developer</a></h5>
-                    <div class="mt-5"><span class="card-location mr-15">Chicago, US</span><span class="card-time">30 mins ago</span></div>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-xl-7 col-md-7 mb-2"><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">React</a><a class="btn btn-tags-sm mr-5" href="jobs-grid.html">NextJS </a>
-                        </div>
-                        <div class="col-xl-5 col-md-5 text-lg-end"><span class="card-text-price">$80 - $150</span><span class="text-muted">/Hour</span></div>
-                      </div>
-                    </div>
-                    <p class="font-sm color-text-paragraph mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box mt-50">
-    <div class="section-box wow animate__animated animate__fadeIn">
-      <div class="container">
-        <div class="text-start">
-          <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Popular Services</h2>
-          <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Search our services faster.</p>
-        </div>
-        <div class="box-swiper mt-50">
-          <div class="swiper-container swiper-group-6 mh-none swiper">
-            <div class="swiper-wrapper pb-70 pt-5">
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big1.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Digital Marketing</h6>
-                        <p class="color-white font-xs"><span>123</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big2.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Global Sxecutive Search</h6>
-                        <p class="color-white font-xs"><span>154</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Document Attestation</h6>
-                        <p class="color-white font-xs"><span>546</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big1.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Skill Training And Testing</h6>
-                        <p class="color-white font-xs"><span>24</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big2.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Oversease Recruitment Service</h6>
-                        <p class="color-white font-xs"><span>54</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Travel And Tourism</h6>
-                        <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Umrah</h6>
-                        <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-              <div class="swiper-slide hover-up">
-                <div class="card-grid-5 card-category hover-up" style="background-image: url('assets/imgs/page/homepage2/img-big3.png')"><a href="jobs-grid.html">
-                    <div class="box-cover-img">
-                      <div class="content-bottom">
-                        <h6 class="color-white mb-5">Web And App Development</h6>
-                        <p class="color-white font-xs"><span>87</span><span> Jobs Available</span></p>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next swiper-button-next-1"></div>
-          <div class="swiper-button-prev swiper-button-prev-1"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box mt-50">
-    <div class="container">
-      <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Our Presence</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Find your favourite jobs and get the benefits of yourself</p>
-      </div>
-      <div class="container">
-        <div class="row mt-50">
-          <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location1.png);"><span class="lbl-hot">Hot</span></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>Paris, France</h5>
-                </a>
+        </section>
+        <section class="section-box overflow-visible mt-50 mb-50">
+            <div class="container">
                 <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">5 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">120 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location2.png);"><span class="lbl-hot">Trending</span></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>London, England</h5>
-                </a>
-                <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">7 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">68 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location3.png);"><span class="lbl-hot">Hot</span></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>New York, USA</h5>
-                </a>
-                <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">9 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">80 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location4.png);"></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>Amsterdam, Holland</h5>
-                </a>
-                <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">16 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">86 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location5.png);"></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>Copenhagen, Denmark</h5>
-                </a>
-                <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">39 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">186 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
-            <div class="card-image-top hover-up"><a href="jobs-grid.html">
-                <div class="image" style="background-image: url(assets/imgs/page/homepage1/location6.png);"></div>
-              </a>
-              <div class="informations"><a href="jobs-grid.html">
-                  <h5>Berlin, Germany</h5>
-                </a>
-                <div class="row">
-                  <div class="col-lg-6 col-6"><span class="text-14 color-text-paragraph-2">15 Vacancy</span></div>
-                  <div class="col-lg-6 col-6 text-end"><span class="color-text-paragraph-2 text-14">632 companies</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box overflow-visible mt-50 mb-50">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="text-center">
-            <h1 class="color-brand-2"><span class="count">25</span><span> K+</span></h1>
-            <h5>Completed Cases</h5>
-            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br class="d-none d-lg-block">complete solution upon focused of<br class="d-none d-lg-block"> any business</p>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="text-center">
-            <h1 class="color-brand-2"><span class="count">17</span><span> +</span></h1>
-            <h5>Our Office</h5>
-            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br class="d-none d-lg-block">complete solution upon focused of <br class="d-none d-lg-block">any business</p>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="text-center">
-            <h1 class="color-brand-2"><span class="count">86</span><span> +</span></h1>
-            <h5>Skilled People</h5>
-            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br class="d-none d-lg-block">complete solution upon focused of <br class="d-none d-lg-block">any business</p>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-          <div class="text-center">
-            <h1 class="color-brand-2"><span class="count">28</span><span> +</span></h1>
-            <h5>CHappy Clients</h5>
-            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br class="d-none d-lg-block">complete solution upon focused of <br class="d-none d-lg-block">any business</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box mt-50">
-    <div class="container">
-      <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Top Recruiters</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Discover your next career move</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="box-swiper mt-50">
-        <div class="swiper-container swiper-group-1 swiper-style-2 swiper">
-          <div class="swiper-wrapper pt-5">
-            <div class="swiper-slide">
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-1.png"></div>
-                    <div class="text-info-right">
-                      <h4>Linkedin</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-2.png"></div>
-                    <div class="text-info-right">
-                      <h4>Adobe</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>42</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">17<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-3.png"></div>
-                    <div class="text-info-right">
-                      <h4>Dailymotion</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>46</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">65<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-4.png"></div>
-                    <div class="text-info-right">
-                      <h4>NewSum</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">25<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-5.png"></div>
-                    <div class="text-info-right">
-                      <h4>PowerHome</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>87</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">34<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-6.png"></div>
-                    <div class="text-info-right">
-                      <h4>Whop.com</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">56<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-7.png"></div>
-                    <div class="text-info-right">
-                      <h4>Greewood</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>124</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">78<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-8.png"></div>
-                    <div class="text-info-right">
-                      <h4>Kentucky</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">98<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-9.png"></div>
-                    <div class="text-info-right">
-                      <h4>Qeuity</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>76</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">90<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-10.png"></div>
-                    <div class="text-info-right">
-                      <h4>Honda</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>89</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">34<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-5.png"></div>
-                    <div class="text-info-right">
-                      <h4>Toyota</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">26<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-3.png"></div>
-                    <div class="text-info-right">
-                      <h4>Lexuxs</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>27</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">54<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-6.png"></div>
-                    <div class="text-info-right">
-                      <h4>Ondo</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">58<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-2.png"></div>
-                    <div class="text-info-right">
-                      <h4>Square</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>16</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">37<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-              <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
-                  <div class="item-logo">
-                    <div class="image-left"><img alt="Uainternational" src="assets/imgs/brands/brand-8.png"></div>
-                    <div class="text-info-right">
-                      <h4>Vista</h4><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><img alt="Uainternational" src="assets/imgs/template/icons/star.svg"><span class="font-xs color-text-mutted ml-10"><span>(</span><span>97</span><span>)</span></span>
-                    </div>
-                    <div class="text-info-bottom mt-5"><span class="font-xs color-text-mutted icon-location">New York, US</span><span class="font-xs color-text-mutted float-end mt-5">43<span> Open Jobs</span></span></div>
-                  </div>
-                </a></div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-button-next swiper-button-next-1"></div>
-        <div class="swiper-button-prev swiper-button-prev-1"></div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box mt-50 mb-50">
-    <div class="container">
-      <div class="text-start">
-        <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">News and Blog</h2>
-        <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Get the latest news, updates and tips</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="mt-50">
-        <div class="box-swiper style-nav-top">
-          <div class="swiper-container swiper-group-3 swiper">
-            <div class="swiper-wrapper pb-70 pt-5">
-              <div class="swiper-slide">
-                <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                  <div class="text-center card-grid-3-image"><a href="#">
-                      <figure><img alt="Uainternational" src="assets/imgs/page/homepage1/img-news1.png"></figure>
-                    </a></div>
-                  <div class="card-block-info">
-                    <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
-                    <h5><a href="blog-details.html">21 Job Interview Tips: How To Make a Great Impression</a></h5>
-                    <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-lg-6 col-6">
-                          <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user1.png" alt="Uainternational">
-                            <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Sarah Harding</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
-                          </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="text-center">
+                            <h1 class="color-brand-2"><span class="count">6</span><span> K+</span></h1>
+                            <h5>Candidate Deployed Globally</h5>
+                            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br
+                                    class="d-none d-lg-block">complete solution upon focused of<br
+                                    class="d-none d-lg-block"> any industry</p>
                         </div>
-                        <div class="col-lg-6 text-end col-6 pt-15"><span class="color-text-paragraph-2 font-xs">8 mins to read</span></div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                  <div class="text-center card-grid-3-image"><a href="#">
-                      <figure><img alt="Uainternational" src="assets/imgs/page/homepage1/img-news2.png"></figure>
-                    </a></div>
-                  <div class="card-block-info">
-                    <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">Events</a></div>
-                    <h5><a href="blog-details.html">39 Strengths and Weaknesses To Discuss in a Job Interview</a></h5>
-                    <p class="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-lg-6 col-6">
-                          <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user2.png" alt="Uainternational">
-                            <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Steven Jobs</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
-                          </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="text-center">
+                            <h1 class="color-brand-2"><span class="count">5</span><span>K+</span></h1>
+                            <h5>Happy Clients</h5>
+                            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br
+                                    class="d-none d-lg-block">our clients' success is our priority. <br
+                                    class="d-none d-lg-block"></p>
                         </div>
-                        <div class="col-lg-6 text-end col-6 pt-15"><span class="color-text-paragraph-2 font-xs">6 mins to read</span></div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                  <div class="text-center card-grid-3-image"><a href="#">
-                      <figure><img alt="Uainternational" src="assets/imgs/page/homepage1/img-news3.png"></figure>
-                    </a></div>
-                  <div class="card-block-info">
-                    <div class="tags mb-15"><a class="btn btn-tag" href="blog-grid.html">News</a></div>
-                    <h5><a href="blog-details.html">Interview Question: Why Dont You Have a Degree?</a></h5>
-                    <p class="mt-10 color-text-paragraph font-sm">Learn how to respond if an interviewer asks you why you dont have a degree, and read example answers that can help you craft</p>
-                    <div class="card-2-bottom mt-20">
-                      <div class="row">
-                        <div class="col-lg-6 col-6">
-                          <div class="d-flex"><img class="img-rounded" src="assets/imgs/page/homepage1/user3.png" alt="Uainternational">
-                            <div class="info-right-img"><span class="font-sm font-bold color-brand-1 op-70">Wiliam Kend</span><br><span class="font-xs color-text-paragraph-2">06 September</span></div>
-                          </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="text-center">
+                            <h1 class="color-brand-2"><span class="count">200</span><span>+</span></h1>
+                            <h5>Team of employees</h5>
+                            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br
+                                    class="d-none d-lg-block">our employees are the backbone of our success. <br
+                                    class="d-none d-lg-block"></p>
                         </div>
-                        <div class="col-lg-6 text-end col-6 pt-15"><span class="color-text-paragraph-2 font-xs">9 mins to read</span></div>
-                      </div>
                     </div>
-                  </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="text-center">
+                            <h1 class="color-brand-2"><span class="count">25</span><span> +</span></h1>
+                            <h5>Branches & Offices</h5>
+                            <p class="font-sm color-text-paragraph mt-10">We always provide people a <br
+                                    class="d-none d-lg-block">UA International is proud to maintain a <br
+                                    class="d-none d-lg-block">global presence</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="text-center"><a class="btn btn-brand-1 btn-icon-load mt--30 hover-up" href="blog-grid.html">Load More Posts</a></div>
-      </div>
-    </div>
-  </section>
-  <section class="section-box mt-50 mb-20">
-    <div class="container">
-      <div class="box-newsletter">
-        <div class="row">
-          <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
-          <div class="col-lg-12 col-xl-6 col-12">
-            <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
-            <div class="box-form-newsletter mt-40">
-              <form class="form-newsletter">
-                <input class="input-newsletter" type="text" value="" placeholder="Enter your email here">
-                <button class="btn btn-default font-heading icon-send-letter">Subscribe</button>
-              </form>
+        </section>
+        <section class="section-box mt-50">
+            <div class="container">
+                <div class="text-start">
+                    <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Top Recruiters</h2>
+                    <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Discover your next
+                        career move</p>
+                </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img src="assets/imgs/template/newsletter-right.png" alt="joxBox"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script src="assets/js/plugins/counterup.js"></script>
-</main>
+            <div class="container">
+                <div class="box-swiper mt-50">
+                    <div class="swiper-container swiper-group-1 swiper-style-2 swiper">
+                        <div class="swiper-wrapper pt-5">
+                            <div class="swiper-slide">
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-1.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Linkedin</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">25<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-2.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Adobe</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>42</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">17<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-3.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Dailymotion</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>46</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">65<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-4.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>NewSum</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>68</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">25<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-5.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>PowerHome</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>87</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">34<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-6.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Whop.com</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>34</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">56<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-7.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Greewood</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>124</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">78<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-8.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Kentucky</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>54</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">98<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-9.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Qeuity</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>76</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">90<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                                <div class="item-5 hover-up wow animate__animated animate__fadeIn"><a href="#">
+                                        <div class="item-logo">
+                                            <div class="image-left"><img alt="Uainternational"
+                                                    src="../assets/imgs/brands/brand-10.png"></div>
+                                            <div class="text-info-right">
+                                                <h4>Honda</h4><img alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><img
+                                                    alt="Uainternational"
+                                                    src="../assets/imgs/template/icons/star.svg"><span
+                                                    class="font-xs color-text-mutted ml-10"><span>(</span><span>89</span><span>)</span></span>
+                                            </div>
+                                            <div class="text-info-bottom mt-5"><span
+                                                    class="font-xs color-text-mutted icon-location">New York,
+                                                    US</span><span
+                                                    class="font-xs color-text-mutted float-end mt-5">34<span> Open
+                                                        Jobs</span></span></div>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-next-1"></div>
+                    <div class="swiper-button-prev swiper-button-prev-1"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-box mt-50 mb-50">
+            <div class="container">
+                <div class="text-start">
+                    <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">News and Blog</h2>
+                    <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Get the latest news,
+                        updates and tips</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="mt-50">
+                    <div class="box-swiper style-nav-top">
+                        <div class="swiper-container swiper-group-3 swiper">
+                            <div class="swiper-wrapper pb-70 pt-5">
+                                @foreach ($blogs as $blog)
+                                    <div class="swiper-slide">
+                                        <div class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
+                                            <div class="text-center card-grid-3-image"><a href="#">
+                                                    <figure><img alt="Uainternational" src="{{ asset($blog->image) }}">
+                                                    </figure>
+                                                </a></div>
+                                            <div class="card-block-info">
+                                                <div class="tags mb-15"><a class="btn btn-tag" href="#">News</a>
+                                                </div>
+                                                <h5><a
+                                                        href="{{ route('blog.details', $blog->id) }}">{{ $blog->title }}</a>
+                                                </h5>
+                                                <p class="mt-10 color-text-paragraph font-sm">{{ $blog->content }}.</p>
+                                                <div class="card-2-bottom mt-20">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-6">
+                                                            {{-- <div class="d-flex"><img class="img-rounded"
+                                                                src="../assets/imgs/page/homepage1/user1.png"
+                                                                alt="Uainternational">
+                                                            <div class="info-right-img"><span
+                                                                    class="font-sm font-bold color-brand-1 op-70">Sarah
+                                                                    Harding</span><br><span
+                                                                    class="font-xs color-text-paragraph-2">06
+                                                                    September</span></div>
+                                                        </div> --}}
+                                                        </div>
+                                                        {{-- <div class="col-lg-6 text-end col-6 pt-15"><span
+                                                            class="color-text-paragraph-2 font-xs">8 mins to read</span>
+                                                    </div> --}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-box mt-50 mb-20">
+            <div class="container">
+                <div class="box-newsletter">
+                    <div class="row">
+                        <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img
+                                src="../assets/imgs/template/newsletter-left.png" alt="joxBox"></div>
+                        <div class="col-lg-12 col-xl-6 col-12">
+                            <h2 class="text-md-newsletter text-center">New Things Will Always<br> Update Regularly</h2>
+                            <div class="box-form-newsletter mt-40 mb-25">
+                                <form class="form-newsletter" action="{{ route('subscribe') }}">
+                                    <input class="input-newsletter" type="text" name="email"
+                                        placeholder="Enter your email here">
+                                    <button type="submit"
+                                        class="btn btn-default font-heading icon-send-letter">Subscribe</button>
+                                </form>
+                            </div>
+                            @if (session('success'))
+                                <div class="alert alert-success">{{ session('success') }}</div>
+                            @endif
+
+                            @if (session('error'))
+                                <div class="alert alert-danger">{{ session('error') }}</div>
+                            @endif
+                        </div>
+                        <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img
+                                src="../assets/imgs/template/newsletter-right.png" alt="ua"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../assets/js/plugins/counterup.js"></script>
+    </main>
 @endsection

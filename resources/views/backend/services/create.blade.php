@@ -23,7 +23,15 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Service Form Elements</h5>
-
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
             <!-- General Form Elements -->
             <form action="{{ route('service.create') }}" method="POST" >
               @csrf
@@ -37,6 +45,12 @@
                 <label for="description" class="col-sm-2 col-form-label">Description</label>
                 <div class="col-sm-10">
                   <input type="text" name="description" id="description" class="form-control" >
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="description" class="col-sm-2 col-form-label">Page Url</label>
+                <div class="col-sm-10">
+                  <input type="text" name="url" id="url" class="form-control" >
                 </div>
               </div>
               <div class="row mb-3">

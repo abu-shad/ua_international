@@ -25,7 +25,7 @@
             <h5 class="card-title">Service Form Elements</h5>
 
             <!-- General Form Elements -->
-            <form action="{{ route('service.update, $service->id') }}" method="POST" >
+            <form action="{{ route('service.update', $service->id) }}" method="POST" >
             @csrf
             @method('PUT')
               <div class="row mb-3">
@@ -38,6 +38,12 @@
                 <label for="description" class="col-sm-2 col-form-label">Description</label>
                 <div class="col-sm-10">
                   <input type="text" name="description" id="description" class="form-control" value="{{ $service->description }}">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="description" class="col-sm-2 col-form-label">Page Url</label>
+                <div class="col-sm-10">
+                  <input type="text" name="url" id="url" class="form-control" value="{{ $service->url }}">
                 </div>
               </div>
               <div class="row mb-3">

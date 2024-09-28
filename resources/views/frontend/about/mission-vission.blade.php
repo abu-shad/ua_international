@@ -31,7 +31,7 @@
                         <div class="pt-40 pb-30 pl-30 pr-30">
                             <!-- <a class="btn btn-tag" href="blog-grid.html">Marketing</a> -->
                             <h2 class="mt-20 mb-20">Our Mission</h2>
-                            <p class="font-md mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet rutrum quam, id faucibus erat interdum a. Curabitur eget tortor a nulla interdum semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet rutrum quam, id faucibus erat interdum a. Curabitur eget tortor a nulla interdum semper.</p>
+                            <p class="font-md mb-20">At UA International, our mission is to empower businesses with strategic insights and innovative solutions that drive growth, efficiency, and sustainability. We are committed to delivering value to our clients by understanding their unique challenges and providing tailored consultancy services that foster long-term success.</p>
                             <div><a class="btn btn-arrow-right" href="#">Read More</a></div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                         <div class="pt-40 pb-30 pl-30 pr-30">
                             <!-- <a class="btn btn-tag" href="blog-grid.html">Marketing</a> -->
                             <h2 class="mt-20 mb-20">Our Vission</h2>
-                            <p class="font-md mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet rutrum quam, id faucibus erat interdum a. Curabitur eget tortor a nulla interdum semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet rutrum quam, id faucibus erat interdum a. Curabitur eget tortor a nulla interdum semper.</p>
+                            <p class="font-md mb-20">Our vision is to be a globally recognized leader in consultancy, shaping the future of businesses through expert guidance and cutting-edge strategies. We strive to be the trusted partner for organizations seeking transformative growth and competitive advantage in an ever-evolving marketplace.</p>
                             <div><a class="btn btn-arrow-right" href="#">Read More</a></div>
                         </div>
                     </div>

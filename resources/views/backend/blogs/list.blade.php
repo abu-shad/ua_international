@@ -38,6 +38,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
+                                        <th>S.N.</th>
                                         <th>Image</th>
                                         <th>Title</th>
                                         <th>Content</th>
@@ -47,22 +48,26 @@
                                 <tbody>
                                     @foreach ($blogs as $blog)
                                     <tr>
-                                        <td>{{ $blog->image }}</td>
-                                        <td>{{ $blog->title }}</td>
-                                        <td>{{ $blog->content }}</td>
+                                        <td>{{ ($blogs->firstItem() + $loop->index) }}</td>
                                         <td>
-                                            <a href="{{ route('blog.edit', $blog->id) }}" class="btn btn-warning">Edit</a>
-                                            <form action="{{ route('blog.destroy', $blog->id) }}" method="POST"
-                                                style="display:inline;">
+                                            <img src="{{ storage_path($blog->image) }}" alt="{{ $blog->title }} Image" width="50" height="50" class="rounded-circle img-fluid">
+                                        </td>
+                                        <td>{{ $blog->title }}</td>
+                                        <td>{{ Str::limit($blog->content, 50) }}</td> <!-- Limiting content length for better table layout -->
+                                        <td>
+                                            <a href="{{ route('blog.edit', $blog->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                                    
+                                            <form action="{{ route('blog.destroy', $blog->id) }}" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this blog?');">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                                             </form>
                                         </td>
                                     </tr>
                                     @endforeach
                                 </tbody>
                             </table>
+                            {{ $blogs->links(asset('vendor.pagination.bootstrap-5')) }}
                             <!-- End Table with hoverable rows -->
                         </div>
                     </div>

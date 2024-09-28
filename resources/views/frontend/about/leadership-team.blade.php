@@ -28,7 +28,7 @@
                 <div class="text-center">
                     <h6 class="f-18 color-text-mutted text-uppercase">Our company</h6>
                     <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Meet Our Team</h2>
-                    <p class="font-sm color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula ante, dictum non aliquet eu, dapibus ac quam. Morbi vel ante viverra orci tincidunt tempor eu id ipsum. Sed consectetur, risus a blandit tempor, velit magna pellentesque risus, at congue tellus dui quis nisl.</p>
+                    <p class="font-sm color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">At UA International, our team is our greatest asset. We are a group of dedicated professionals who bring a diverse range of skills, expertise, and experience to the table. Each team member is committed to delivering the highest level of service, ensuring that our clients receive personalized, innovative solutions tailored to their unique needs.</p>
                 </div>
                 <div class="row mt-70">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">

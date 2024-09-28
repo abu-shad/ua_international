@@ -12,7 +12,7 @@ class BlogController extends Controller
 {
     public function blogList()
     {
-        $blogs = Blog::all();
+        $blogs = Blog::paginate(2);
         return view('backend.blogs.list', compact('blogs'));
     }
 
@@ -33,7 +33,7 @@ class BlogController extends Controller
 
         if ($request->hasFile('image')) {
             $filePath = Storage::disk('public')->put('images/posts', request()->file('image'));
-            $blogData['image'] = $filePath;
+            $blogData['image'] = url('storage').'/'.$filePath;
         }
 
         Blog::create($blogData);
@@ -61,13 +61,13 @@ class BlogController extends Controller
         $blogData = $request->only(['title', 'content']);
 
         if ($request->hasFile('image')) {
-            // delete image
+
             if ($blog->image) {
                 Storage::disk('public')->delete($blog->image);
             }
 
             $filePath = Storage::disk('public')->put('images/posts', request()->file('image'), 'public');
-            $blogData['image'] = $filePath;
+            $blogData['image'] = url('storage').'/'.$filePath;
         }
 
         $blog->update($blogData);

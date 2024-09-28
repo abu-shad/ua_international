@@ -28,6 +28,7 @@ return new class extends Migration
             $table->string('posted_at')->nullable(); 
             $table->string('expires_at')->nullable(); 
             $table->string('application_deadline')->nullable(); 
+            $table->string('job_image')->nullable(); 
             $table->timestamps(); 
         });
     }

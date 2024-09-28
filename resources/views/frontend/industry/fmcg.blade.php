@@ -28,29 +28,21 @@
                 <div class="text-center">
                     <h6 class="f-18 color-text-mutted text-uppercase">Our company</h6>
                     <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">FMCG</h2>
-                    <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula ante, dictum non aliquet eu, dapibus ac quam. Morbi vel ante viverra orci tincidunt tempor eu id ipsum. Sed consectetur, risus a blandit tempor, velit magna pellentesque risus, at congue tellus dui quis nisl.</p>
+                    <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">The Fast-Moving Consumer Goods (FMCG) industry in the Middle East is a rapidly expanding sector, driven by growing populations, rising disposable incomes, and increasing urbanization. FMCG products, which include everyday items such as food and beverages, personal care products, and household goods, are in constant demand across the region.</p>
                 </div>
                 <div class="row mt-70">
                     <div class="col-lg-6 col-md-12 col-sm-12"><img src="../assets/imgs/page/about/img-about2.png" alt="joxBox"></div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <h3 class="mt-15">What we can do in FMCG?</h3>
                         <div class="mt-20">
-                            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.</p>
-                            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
+                            <p class="font-md color-text-paragraph mt-20">With the Middle East being home to a young, tech-savvy population, consumer preferences are evolving, leading to a surge in demand for healthier options, organic products, and sustainable packaging. International FMCG brands continue to establish a strong presence in the market, while local brands are also gaining traction by offering products that cater specifically to regional tastes and preferences.</p>
+                            <p class="font-md color-text-paragraph mt-20">The industry's growth is further fueled by the expanding retail sector, including the rise of e-commerce platforms that make FMCG products more accessible to a wider audience. Rapid digital transformation, accelerated by the COVID-19 pandemic, has also led to changes in consumer behavior, with online grocery shopping becoming increasingly popular. FMCG companies are leveraging data analytics and consumer insights to create personalized shopping experiences and targeted marketing campaigns. Additionally, the region’s strategic location as a trade hub facilitates easy import and export of FMCG products, enhancing supply chain efficiency. Despite challenges such as fluctuating raw material costs and regulatory complexities, the FMCG sector in the Middle East remains resilient and continues to be a vital contributor to the economy, offering vast opportunities for innovation and growth.</p>
+                            
                         </div>
                         <!-- <div class="mt-30"><a class="btn btn-brand-1" href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container mt-20">
-            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
         </div>
     </section>
 </main>

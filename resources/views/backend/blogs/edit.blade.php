@@ -39,7 +39,7 @@
                 <div class="col-sm-10">
                   <input class="form-control" type="file" name="image" id="image">
                   @if($blog->image)
-                  <img src="{{ asset('storage/' . $blog->image) }}" alt="Blog Image" class="img-fluid mt-2" style="max-height: 200px;">
+                  <img src="{{ asset($blog->image) }}" alt="Blog Image" class="img-fluid mt-2" style="max-height: 200px;">
                   @endif
                 </div>
               </div>

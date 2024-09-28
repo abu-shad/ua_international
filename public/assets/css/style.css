@@ -216,13 +216,13 @@ input:focus::-moz-placeholder {
 }
 
 a {
-  color: #05264E;
+  color: #F52126;
 }
 a:hover {
-  color: #3C65F5;
+  color: #F52126;
 }
 a *:hover {
-  color: #3C65F5;
+  color: #F52126;
 }
 
 li.hr span {
@@ -562,7 +562,7 @@ h6 {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  color: #05264E;
+  color: #f52126;
 }
 
 .font-lg, .font-md, .font-sm, .font-xs, .font-xxs {
@@ -608,11 +608,11 @@ h6 {
 }
 
 .color-text-paragraph {
-  color: #4F5E64;
+  color: #212529;
 }
 
 .color-text-paragraph-2 {
-  color: #66789C;
+  color: #212529;
 }
 
 .color-text-mutted {
@@ -664,7 +664,7 @@ h6 {
 }
 
 .color-brand-2 {
-  color: #3C65F5;
+  color: #F52126;
 }
 
 .op-70 {
@@ -719,13 +719,13 @@ h6 {
   overflow: visible;
   border-radius: 10px;
   position: relative;
-  background-color: #66789C !important;
+  background-color: #F52126 !important;
 }
 .box-progress-bar .progress .bg-paragraph-2 span {
   position: absolute;
   top: -25px;
   right: -14px;
-  color: #66789C;
+  color: #F52126;
   font-size: 12px;
   line-height: 18px;
 }
@@ -734,7 +734,7 @@ h6 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background-color: #66789C;
+  background-color: #F52126;
   position: absolute;
   top: -5px;
   right: -5px;
@@ -749,7 +749,7 @@ h6 {
   position: absolute;
   top: -25px;
   right: -14px;
-  color: #66789C;
+  color: #F52126;
   font-size: 12px;
   line-height: 18px;
 }
@@ -878,7 +878,7 @@ h6,
 .display-2,
 .heading-lg,
 .heading-sm-1 {
-  color: #05264E;
+  color: #f52126;;
 }
 
 .btn {
@@ -891,12 +891,12 @@ h6,
 }
 .btn.btn-default {
   color: #ffffff;
-  background-color: #3C65F5;
+  background-color: #f52126;
   line-height: 26px;
   padding: 10px 25px;
 }
 .btn.btn-default:hover {
-  background-color: #05264E;
+  background-color: #c60409;
   transform: translateY(-2px);
   transition: 0.2s;
 }
@@ -965,7 +965,7 @@ h6,
 }
 
 .btn-apply-big {
-  background-color: #3C65F5;
+  background-color: #f52126;
   color: #ffffff;
   padding: 18px 35px;
   border-radius: 4px;
@@ -976,7 +976,7 @@ h6,
 }
 .btn-apply-big:hover {
   color: #fff;
-  background-color: #05264E;
+  background-color: #ae0509;
 }
 
 .btn-call-icon {
@@ -1022,7 +1022,7 @@ h6,
 
 .btn-tags-sm {
   padding: 6px 18px;
-  color: #66789C;
+  color: #F52126;
   border-radius: 5px;
   color: #3C65F5;
   min-width: 42px;
@@ -1053,12 +1053,12 @@ h6,
 
 .btn-brand-1 {
   padding: 18px 25px;
-  background: #05264E;
+  background: #f52126;
   color: #ffffff;
   border-radius: 4px;
 }
 .btn-brand-1:hover {
-  background-color: #3C65F5;
+  background-color: #cc0207;
   color: #ffffff;
 }
 
@@ -1078,7 +1078,7 @@ h6,
 
 .btn-paragraph-2 {
   padding: 8px 16px;
-  background: #66789C;
+  background: #F52126;
   border-radius: 5px;
   color: #3C65F5;
   min-width: 42px;
@@ -1093,11 +1093,11 @@ h6,
   line-height: 24px;
   color: #ffffff;
   padding: 15px 28px 15px 60px;
-  background: #3C65F5 url(../imgs/page/company/icon-email.svg) no-repeat 25px 15px;
+  background: #f52126 url(../imgs/page/company/icon-email.svg) no-repeat 25px 15px;
   border-radius: 4px;
 }
 .btn-send-message:hover {
-  background-color: #05264E;
+  background-color: #b1070b;
   color: #ffffff;
 }
 
@@ -1175,7 +1175,7 @@ h6,
 
 .btn-arrow-right {
   background: url(../imgs/page/homepage2/arrow-right.svg) no-repeat right 15px top 3px;
-  color: #3C65F5;
+  color: #f52126;
   padding: 0px 40px 0px 0px;
   font-size: 12px;
   line-height: 12px;
@@ -1463,7 +1463,7 @@ label {
   position: relative;
 }
 .box-swiper .swiper-container .item-logo {
-  border: 1px solid rgba(6, 18, 36, 0.1);
+  border: 1px solid #f52126;;
   padding: 22px 18px;
   display: flex;
   width: 100%;
@@ -1846,7 +1846,7 @@ label {
   margin-left: 0;
 }
 .card-grid-2 .btn-apply-now {
-  color: #3C65F5;
+  color: #212529;
 }
 .card-grid-2:hover {
   border-color: #B4C0E0;
@@ -1854,7 +1854,7 @@ label {
 }
 .card-grid-2:hover .btn-apply-now {
   color: #ffffff;
-  background-color: #3C65F5;
+  background-color: #f52126;
 }
 .card-grid-2 a {
   text-decoration: none;
@@ -2083,6 +2083,7 @@ label {
   padding: 12px 12px 20px 12px;
   border-radius: 16px;
   margin-bottom: 24px;
+  border: 1px solid #F52126;
 }
 .card-image-top .image {
   overflow: hidden;
@@ -2128,7 +2129,7 @@ label {
 
 .card-grid-3 {
   border-radius: 16px;
-  border: 1px solid #E0E6F7;
+  border: 1px solid #f52126;
   overflow: hidden;
   margin-bottom: 0px;
   background: #ffffff;
@@ -2253,7 +2254,7 @@ label {
   background-color: #ffffff;
   padding: 40px 30px 35px 30px;
   border-radius: 10px;
-  border: thin solid #E0E6F7;
+  border: thin solid #f52126;
   margin-bottom: 30px;
 }
 .card-grid-4:hover {
@@ -2444,6 +2445,7 @@ ul li:last-child .card-list-4 {
 
 .card-category {
   height: 255px;
+  border: 3px solid #F52126;
 }
 .card-category .box-cover-img {
   top: 0px;
@@ -2573,6 +2575,7 @@ ul li:last-child .card-list-4 {
   background: url(../imgs/template/bg-newsletter.svg) no-repeat 0px 0px;
   background-size: cover;
   border-radius: 16px;
+  background: #ff0000;
 }
 .box-newsletter .box-form-newsletter {
   background: #ffffff;
@@ -2635,7 +2638,7 @@ ul li:last-child .card-list-4 {
 }
 
 .text-mutted-2 {
-  color: #66789C;
+  color: #F52126;
 }
 
 /*page loading*/
@@ -2707,7 +2710,7 @@ ul li:last-child .card-list-4 {
   padding: 7px 15px;
 }
 .breadcrumbs li {
-  color: #66789C;
+  color: #F52126;
   font-size: 14px;
   display: inline-block;
   padding-left: 20px;
@@ -2724,7 +2727,7 @@ ul li:last-child .card-list-4 {
 }
 .breadcrumbs li a {
   font-size: 14px;
-  color: #66789C;
+  color: #F52126;
   text-decoration: none;
   line-height: 14px;
   display: block;
@@ -2733,7 +2736,7 @@ ul li:last-child .card-list-4 {
   color: #05264E;
 }
 .breadcrumbs li:last-child::before {
-  color: #66789C;
+  color: #F52126;
 }
 .breadcrumbs li:first-child::before {
   display: none;
@@ -2912,7 +2915,7 @@ ul li:last-child .card-list-4 {
   color: #05264E;
 }
 .banner-hero .color-brand-2 {
-  color: #3C65F5;
+  color: #F52126;
   position: relative;
 }
 .banner-hero .color-brand-2::after {
@@ -2991,7 +2994,7 @@ ul li:last-child .card-list-4 {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: #05264E;
+  background-color: #000000f0;
   opacity: 0.8;
   z-index: 1;
 }
@@ -3141,13 +3144,13 @@ ul li:last-child .card-list-4 {
   position: relative;
 }
 .header .main-menu li a:hover, .header .main-menu li a.active {
-  color: #3C65F5;
+  color: #F52126;
 }
 .header .main-menu li a:hover::before, .header .main-menu li a.active::before {
   content: "";
   height: 2px;
   width: 100%;
-  background-color: #3C65F5;
+  background-color: #F52126;
   position: absolute;
   bottom: -10px;
   left: 0px;
@@ -3883,7 +3886,7 @@ ul li:last-child .card-list-4 {
   border: 0;
   background-color: #fff;
   transition-duration: 0.2s;
-  background-color: #3C65F5;
+  background-color: #f52126;
   background-image: url(../imgs/template/icons/go-top.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6232,7 +6235,7 @@ ul li:last-child .card-list-4 {
 .content-single p {
   font-size: 16px;
   line-height: 200%;
-  color: #4F5E64;
+  color: #212529;
   line-height: 32px;
   margin-bottom: 20px;
 }
@@ -6246,7 +6249,7 @@ ul li:last-child .card-list-4 {
   padding-left: 30px;
   line-height: 32px;
   font-size: 16px;
-  color: #4F5E64;
+  color: #212529;
   list-style: disc;
 }
 
@@ -6370,7 +6373,7 @@ ul li:last-child .card-list-4 {
 
 .text-description {
   font-size: 14px;
-  color: #66789C;
+  color: #F52126;
   line-height: 22px;
   display: inline-block;
   width: 50%;
@@ -6407,7 +6410,7 @@ ul li:last-child .card-list-4 {
   padding-left: 35px;
 }
 .sidebar-list-job ul li .sidebar-text-info span {
-  color: #66789C;
+  color: #F52126;
 }
 .sidebar-list-job ul li .sidebar-text-info strong {
   display: block;
@@ -6483,7 +6486,7 @@ ul li:last-child .card-list-4 {
 }
 .job-overview .text-description {
   font-size: 16px;
-  color: #66789C;
+  color: #F52126;
   line-height: 24px;
   font-weight: 400;
 }
@@ -6576,7 +6579,7 @@ ul li:last-child .card-list-4 {
   float: right;
   font-size: 14px;
   line-height: 22px;
-  color: #66789C;
+  color: #F52126;
   font-weight: 500;
 }
 
@@ -6714,7 +6717,7 @@ ul li:last-child .card-list-4 {
 .text-body-999 {
   font-size: 16px;
   line-height: 22px;
-  color: #66789C;
+  color: #F52126;
 }
 
 .box-email-reminder .form-group {
@@ -6928,7 +6931,7 @@ ul li:last-child .card-list-4 {
   font-size: 14px;
 }
 .input-disabled:focus {
-  color: #66789C;
+  color: #F52126;
 }
 
 .lb-slider {
@@ -7026,7 +7029,7 @@ ul li:last-child .card-list-4 {
   display: block;
 }
 .sidebar-border-bg .text-hiring {
-  color: #66789C;
+  color: #F52126;
   font-size: 36px;
   font-weight: 800;
   line-height: 57px;
@@ -7175,7 +7178,7 @@ ul li:last-child .card-list-4 {
   padding: 13px 17px;
   width: auto;
   background: #ffffff;
-  border: 1px solid #E0E6F7;
+  border: 1px solid #F52126;
   border-radius: 8px;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 12px;
@@ -7185,8 +7188,8 @@ ul li:last-child .card-list-4 {
   margin-bottom: 10px;
 }
 .nav-tabs li a:hover, .nav-tabs li a.active {
-  color: #3C65F5;
-  border-color: #3C65F5;
+  color: #F52126;
+  border-color: #F52126;
   box-shadow: 0px 2px 4px -5px rgb(10, 42, 105);
 }
 .nav-tabs li a img {
@@ -7301,7 +7304,7 @@ ul li:last-child .card-list-4 {
 .box-we-hiring .text-2 {
   font-size: 18px;
   line-height: 23px;
-  color: #66789C;
+  color: #F52126;
   font-weight: 500;
   padding: 29px 20px 0px 20px;
 }
@@ -7620,13 +7623,13 @@ ul li:last-child .card-list-4 {
 }
 
 .list-tags-banner-2 {
-  color: #66789C;
+  color: #F52126;
   font-size: 14px;
   line-height: 26px;
 }
 .list-tags-banner-2 a {
   text-decoration: underline;
-  color: #66789C;
+  color: #F52126;
 }
 
 .block-banner-1, .block-banner-2, .block-banner-3 {

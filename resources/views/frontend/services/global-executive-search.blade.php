@@ -18,38 +18,20 @@
                         <div class="banner-hero banner-image-single mt-10 mb-20"><img src="/../assets/imgs/page/job-single-2/img.png" alt="jobBox"></div>
 
                         <div class="content-single">
-                            <h4>Welcome to AliStudio Team</h4>
-                            <p>The AliStudio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.</p>
+                            <h4>Welcome to Global Executive Search</h4>
                             <p>
-                                The ideal candidate will have strong creative skills and a portfolio of work which demonstrates their passion for illustrative design and typography. This candidate will have experiences in working with numerous different design platforms such as digital
-                                and print forms.
+                                UA International, we offer specialized global executive search services designed to help organizations find and attract top-tier leadership talent from around the world. In today’s competitive business landscape, having the right executives at the helm is crucial for driving growth, innovation, and sustainability. Our dedicated team is committed to connecting you with leaders who not only possess the necessary skills and experience but also align with your company’s values and culture.
                             </p>
-                            <h4>Essential Knowledge, Skills, and Experience</h4>
-                            <ul>
-                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
-                                <li>5+ years of industry experience in interactive design and / or visual design</li>
-                                <li>Excellent interpersonal skills</li>
-                                <li>Aware of trends in&#x202F;mobile, communications, and collaboration</li>
-                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
-                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
-                                <li>History of impacting shipping products with your work</li>
-                                <li>A Bachelor&rsquo;s Degree in Design (or related field) or equivalent professional experience</li>
-                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
-                            </ul>
-                            <h4>Preferred Experience</h4>
-                            <ul>
-                                <li>Designing user experiences for enterprise software / services</li>
-                                <li>Creating and applying established design principles and interaction patterns</li>
-                                <li>Aligning or influencing design thinking with teams working in other geographies</li>
-                            </ul>
-                            <h4>Product Designer</h4>
-                            <p><strong>Product knowledge:</strong> Deeply understand the technology and features of the product area to which you are assigned.</p>
-                            <p><strong>Research:</strong> Provide human and business impact and insights for products.</p>
-                            <p><strong>Deliverables:</strong> Create deliverables for your product area (for example competitive analyses, user flows, low fidelity wireframes, high fidelity mockups, prototypes, etc.) that solve real user problems through
-                                the user experience.
-                            </p>
-                            <p><strong>Communication:</strong> Communicate the results of UX activities within your product area to the design team department, cross-functional partners within your product area, and other interested Superformula team
-                                members using clear language that simplifies complexity.
+                            
+                            <p>In-Depth Consultation: We begin with a comprehensive consultation to understand your organization’s vision, goals, and unique challenges. This allows us to tailor our search strategy to meet your specific needs and identify the ideal candidates.
+
+                                Targeted Talent Mapping: Utilizing our extensive global network and market intelligence, we conduct thorough talent mapping to identify potential candidates across various industries and regions. Our proactive approach ensures that we engage with high-caliber executives who may not be actively seeking new opportunities.
+                                
+                                Rigorous Candidate Assessment: We employ a meticulous selection process that includes in-depth interviews, competency assessments, and cultural fit evaluations. This ensures that candidates not only meet the technical requirements but also resonate with your organization’s ethos.
+                                
+                                Confidentiality and Discretion: We understand that executive searches require a high level of confidentiality. Our team is committed to maintaining the utmost discretion throughout the process, ensuring that sensitive information is protected at all times.
+                                
+                                Seamless Integration: Once the right candidate is identified, we assist with the onboarding process to ensure a smooth transition into your organization. Our support extends beyond placement, as we provide resources and insights to facilitate long-term success.
                             </p>
                         </div>
                     </div>

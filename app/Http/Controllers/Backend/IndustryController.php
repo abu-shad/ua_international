@@ -10,7 +10,7 @@ class IndustryController extends Controller
 {
     public function industryList()
     {
-        $industries = Industry::all();
+        $industries = Industry::paginate(10);
         return view('backend.industry.list', compact('industries'));
     }
 
@@ -26,7 +26,10 @@ class IndustryController extends Controller
             'description' => 'nullable|string'
         ]);
 
-        Industry::create($validatedData);
+        $data = $request->all();
+        $data['icon'] = 'assets/imgs/page/homepage1/industry.svg';   
+
+        Industry::create($data);
         return redirect()->route('industry.list')->with('success', 'Insudtry created successfully.');
     }
 
@@ -44,7 +47,11 @@ class IndustryController extends Controller
         ]);
 
         $insudtry = Industry::find($id);
-        $insudtry->update($validatedData);
+        $insudtry->update([
+            'name' => $request->name,
+            'description' => $request->description,
+            'icon' => $insudtry->icon,
+        ]);
         return redirect()->route('industry.list')->with('success', 'Insudtry updated successfully.');
     }
 

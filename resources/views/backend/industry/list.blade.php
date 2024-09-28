@@ -38,16 +38,18 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>SN</th>
+                                        <th>S.N.</th>
                                         <th>Name</th>
+                                        <th>Description</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach ($industries as $industry)
                                     <tr>
-                                        <td>1</td>
-                                        <td>{{ $industry->title }}</td>
+                                        <td>{{ ($industries->currentPage() - 1) * $industries->perPage() + $loop->iteration }}</td>
+                                        <td>{{ $industry->name }}</td>
+                                        <td>{{ $industry->description }}</td>
                                         <td>
                                             <form action="{{ route('industry.destroy', $industry->id) }}" method="POST"
                                                 style="display:inline;">
@@ -60,6 +62,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
+                            {{ $industries->links(asset('vendor.pagination.bootstrap-5')) }}
                             <!-- End Table with hoverable rows -->
                         </div>
                     </div>

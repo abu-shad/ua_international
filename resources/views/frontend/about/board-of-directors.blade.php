@@ -26,28 +26,15 @@
                     <div class="single-body">
                         <div class="max-width-single">
                             <div class="font-lg mb-30">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien
-                                    pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus,
-                                    quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.
-                                </p>
+                                <p>At UA International, our Board of Directors comprises industry leaders with a proven track record of guiding businesses toward growth and success. With a wealth of experience across various sectors, our directors bring strategic insight, visionary leadership, and a commitment to excellence</p>
                             </div>
                         </div>
                         <figure><img src="../assets/imgs/page/blog/img-content.png"></figure>
                         <div class="max-width-single">
                             <div class="content-single">
-                                <p></p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien
-                                    pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus,
-                                    quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.
-                                </p>
-                                <p></p>
-                                <p>
-                                    Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat
-                                    justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae ante enim. Fusce sed elit
-                                    est. Suspendisse sit amet mauris in quam pretium faucibus et aliquam odio.
-                                </p>
+                                <p>Their combined expertise enables us to provide our clients with informed, innovative solutions tailored to their unique needs. Each director plays a pivotal role in ensuring our company remains at the forefront of the consultancy industry, helping organizations worldwide achieve their full potential.
+
+                                    Our Board is dedicated to upholding the highest standards of integrity, fostering collaboration, and driving sustainable growth for our clients and stakeholders.</p>
                             </div>
                         </div>
                     </div>

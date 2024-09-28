@@ -28,29 +28,21 @@
                 <div class="text-center">
                     <h6 class="f-18 color-text-mutted text-uppercase">Our company</h6>
                     <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">Automobiles</h2>
-                    <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula ante, dictum non aliquet eu, dapibus ac quam. Morbi vel ante viverra orci tincidunt tempor eu id ipsum. Sed consectetur, risus a blandit tempor, velit magna pellentesque risus, at congue tellus dui quis nisl.</p>
+                    <p class="font-sm color-text-paragraph wow animate__animated animate__fadeInUp w-lg-50 mx-auto">The automobile industry in the Middle East is undergoing significant transformation, driven by a combination of economic growth, technological advancements, and shifting consumer preferences. As the region's population continues to grow, so does the demand for personal and commercial vehicles, making the automobile sector a key player in the regional economy.</p>
                 </div>
                 <div class="row mt-70">
                     <div class="col-lg-6 col-md-12 col-sm-12"><img src="../assets/imgs/page/about/img-about2.png" alt="joxBox"></div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <h3 class="mt-15">What we can do in Automobiles?</h3>
                         <div class="mt-20">
-                            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.</p>
-                            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
-                            <p class="font-md color-text-paragraph mt-20">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
+                            <p class="font-md color-text-paragraph mt-20">The region is also becoming a hub for automotive manufacturing, with several global manufacturers establishing production facilities and assembly plants to tap into the local market. This has led to job creation and technological knowledge transfer, further strengthening the industry. With the rise of digital technologies, automotive companies are increasingly focusing on connected vehicles and advanced driver-assistance systems, enhancing safety and driving experiences.</p>
+                            <p class="font-md color-text-paragraph mt-20">Moreover, the used car market is thriving, providing consumers with affordable options and contributing to the overall growth of the automobile industry. Despite challenges such as fluctuating oil prices and economic uncertainties, the Middle East’s automobile sector is poised for continued growth, driven by innovation, sustainability, and a commitment to meeting the evolving needs of consumers.</p>
+                            
                         </div>
                         <!-- <div class="mt-30"><a class="btn btn-brand-1" href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container mt-20">
-            <p class="font-md color-text-paragraph mt-20">Aenean sollicituin, lorem quis bibendum auctor nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maurisorbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctora ornare odio.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non nisi purus. Integer sit nostra, per inceptos himenaeos.</p>
         </div>
     </section>
 </main>

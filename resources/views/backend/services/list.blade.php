@@ -38,7 +38,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>SN</th>
+                                        <th>S.N.</th>
                                         <th>Name</th>
                                         <th>Description</th>
                                         <th>Actions</th>
@@ -47,11 +47,13 @@
                                 <tbody>
                                     @foreach ($services as $Service)
                                     <tr>
-                                        <td>1</td>
-                                        <td>{{ $Service->title }}</td>
+                                        <td>{{ ($services->currentPage() - 1) * $services->perPage() + $loop->iteration }}</td>
+                                        <td>{{ $Service->name }}</td>
                                         <td>{{ $Service->description }}</td>
                                         <td>
-                                            <form action="{{ route('Service.destroy', $Service->id) }}" method="POST"
+                                            <a href="{{ route('service.edit', $Service->id) }}"
+                                                class="btn btn-warning">Edit</a>
+                                            <form action="{{ route('service.destroy', $Service->id) }}" method="POST"
                                                 style="display:inline;">
                                                 @csrf
                                                 @method('DELETE')
@@ -62,6 +64,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
+                            {{ $services->links(asset('vendor.pagination.bootstrap-5')) }}
                             <!-- End Table with hoverable rows -->
                         </div>
                     </div>
